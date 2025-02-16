@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "api",
+        "index.js"
+    ],
+    "ext": "js,json",
+    "ignore": [
+        "node_modules",
+        "dist"
+    ],
+    "exec": "node index.js"
+}

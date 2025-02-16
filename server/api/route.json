@@ -1,0 +1,485 @@
+{
+    "status": "success",
+    "message": "Solicitud procesada con éxito.",
+    "data": {
+        "status": "OK",
+        "summary": {
+            "route": [
+                {
+                    "location": {
+                        "lat": 19.0536292,
+                        "lng": -104.3170724
+                    }
+                },
+                {
+                    "location": {
+                        "lat": 20.6751707,
+                        "lng": -103.3473385
+                    }
+                }
+            ],
+            "countries": [
+                "MEX"
+            ],
+            "currency": "MXN",
+            "vehicleType": "2AxlesAuto",
+            "vehicleDescription": "Car, SUV or Pickup truck",
+            "fuelPrice": {
+                "value": 25.78,
+                "currency": "MXN",
+                "units": "MXN/liter",
+                "fuelUnit": "liter"
+            },
+            "fuelEfficiency": {
+                "city": 14.9,
+                "hwy": 19,
+                "units": "km/l",
+                "fuelUnit": "liter"
+            },
+            "units": {
+                "currencyUnit": "MXN",
+                "fuelEfficiencyUnit": "km/l",
+                "fuelUnit": "liter"
+            },
+            "departure_time": "2025-02-16T02:53:55.875755307Z",
+            "departureTime": "2025-02-16T02:53:55.875755307Z",
+            "share": {
+                "name": "-",
+                "prefix": "-",
+                "uuid": "b01dcde8-e66c-4a4b-9bbb-e09824b13f2e",
+                "timestamp": "2025-02-16T02:53:55.875770453Z",
+                "client": "api"
+            },
+            "source": "HERE"
+        },
+        "routes": [
+            {
+                "summary": {
+                    "hasTolls": true,
+                    "hasExpressTolls": false,
+                    "diffs": {
+                        "cheapest": 0,
+                        "fastest": 0
+                    },
+                    "url": "https://www.google.com/maps/?saddr=19.053629,-104.317072&daddr=19.049410,-104.289090+to:19.050410,-104.268840+to:18.943930,-103.899330+to:19.270950,-103.671490+to:19.554000,-103.437370+to:20.675170,-103.347350+to:20.675171,-103.347339&via=1,2,3,4,5,6",
+                    "distance": {
+                        "text": "180 mi",
+                        "metric": "290 km",
+                        "value": 290248
+                    },
+                    "duration": {
+                        "text": "4 h 7 min",
+                        "value": 14838
+                    },
+                    "name": "MEX-54"
+                },
+                "costs": {
+                    "tagAndCash": 409,
+                    "fuel": 406.59,
+                    "tag": 409,
+                    "cash": 409,
+                    "licensePlate": null,
+                    "prepaidCard": 409,
+                    "maximumTollCost": 409,
+                    "minimumTollCost": 409
+                },
+                "tolls": [
+                    {
+                        "id": 524000000,
+                        "lat": 18.927587,
+                        "lng": -104.081624,
+                        "name": "Cuyutlán",
+                        "road": "Armería - Manzanillo (200D)",
+                        "state": "Colima",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 0,
+                        "tagPriCost": 0,
+                        "tagSecCost": null,
+                        "cashCost": 0,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 0,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "VIAPass",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "VIAPass",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 32323.34,
+                            "time": "2025-02-16T03:30:45Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T03:30:45Z",
+                        "timestamp_localized": "2025-02-15T21:30:45-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -104.081624,
+                                    18.927587
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    },
+                    {
+                        "id": 521300900,
+                        "lat": 19.40895,
+                        "lng": -103.52761,
+                        "name": "San Marcos",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 204,
+                        "tagPriCost": 204,
+                        "tagSecCost": null,
+                        "cashCost": 204,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 204,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 124191.24,
+                            "time": "2025-02-16T04:51:48Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T04:51:48Z",
+                        "timestamp_localized": "2025-02-15T22:51:48-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.52761,
+                                    19.40895
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    },
+                    {
+                        "id": 521300200,
+                        "lat": 19.933159,
+                        "lng": -103.530564,
+                        "name": "Sayula",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 88,
+                        "tagPriCost": 88,
+                        "tagSecCost": null,
+                        "cashCost": 88,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 88,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 192477.38,
+                            "time": "2025-02-16T05:51:01Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T05:51:01Z",
+                        "timestamp_localized": "2025-02-15T23:51:01-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.530564,
+                                    19.933159
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    },
+                    {
+                        "id": 521300100,
+                        "lat": 20.373462,
+                        "lng": -103.576245,
+                        "name": "Acatlán",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 117,
+                        "tagPriCost": 117,
+                        "tagSecCost": null,
+                        "cashCost": 117,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 117,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 243376.56,
+                            "time": "2025-02-16T06:34:08Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T06:34:08Z",
+                        "timestamp_localized": "2025-02-16T00:34:08-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.576245,
+                                    20.373462
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    }
+                ],
+                "polyline": "elhsBtlu{Re@xBLFzATb@wBcBi@\\yAJ]FWEICCGEg@QEAGAE?K@F[v@oFLy@BOFk@By@?y@IW[WWUM[@c@Jo@F_@Hc@Ji@RcBP}AFsABIBGBGHSP?J?TALAJANCFAZKVGp@@bB?l@?r@DZMVSFSNm@r@gDRiAv@eENkA@u@Eo@Ei@MsAKeASsBCw@Dy@Jk@Pk@n@_Ap@k@JKz@o@Xc@D]BYCa@KYY[_AaAEY@YLk@Xy@lAeDP_@b@gAX[ROPIz@a@TMRQNSJWDW?[G_@KYaBkCEUc@aAc@mACEa@}@MYo@q@[i@[u@Qy@Gy@BmAJaBd@wICIXiFAuFEwCC}ACe@Cm@Gg@UcAWq@uBqDO]Oe@Gg@Am@@a@TgDJyAFiA?YAo@AUI}B[oEMcAKm@SaBGu@MwAIg@EiBFwAZuBVkB|B}NLy@lCuQH_A?m@Io@Mi@]eAs@aCc@}AaAiCg@cAEs@AY?O@OBOBMBIFQb@gAVw@LUPa@Pc@L]Ne@pAkEt@eCPi@Pi@Pe@Pa@R_@R_@T_@Va@V_@V[X[X[^[ZWZUXSZS`@Ub@U`@S`@Sf@Uz@a@lFeCtG{C`F}BxFmCZObAe@~E}BrAo@fD{Al@Wr@[v@_@j@Yp@]h@Yd@W`@UZS\\UZU^YVUVUXYXYVYTWV[TYNU^k@NWZg@Ta@jAqBNUJQZi@NWNWLWNYNWRa@JWJYJURk@JYFSJ_@HYFUFWDSJm@Jm@Fe@DYLeAn@oFLeARgBR}AJu@He@Ha@Jc@J_@J[JYJSHQHQP]LUJQR[JORWTWTUVULKTQZUXQXOVMPIXMXKTIVIb@Mb@MxBm@d@Mn@QbAWhAYp@O`@I`@GTCXCTA`@AZ?f@@P@b@BP@TB^D`@FVDTDz@Th@Nj@PhCt@vBn@dGfBlEnA`D`A`@Lf@NXHl@Nf@J^Fb@Fd@Df@B`@@\\?f@CZCXCb@GXENCh@Ip@Mb@If@IRCVCVCVA^?^@\\@\\D`@Fb@Hb@Hl@LrCl@dATx@Pr@Nb@HZFXDTBZBV@`@@`@?XANAVCXEZGVGVIRGRILGNIJGTONKROJIPOPQX[\\a@TYV[X[VYRUVYVWXWXUXSZS\\SZQZO^O^Md@Ml@Mf@Id@Gj@Eb@Cl@Al@?h@@r@D^Dd@Fv@Lv@NzAZpB`@vBb@zAZrAVv@Nv@PTDr@Nl@Lf@Jj@J~@R\\FNBZDXB^B`@@`@?^?b@CZCRCREJCPGNEHCZMRKZQZSZUTSFGLMRWRYNUJQN[L[Na@N_@xAcElCmHx@}BrAsDRk@Nc@J_@J_@Ja@H_@F_@Fa@D_@Dc@Dk@B_@FwATmFZyHNyDLiCBg@Dm@De@Dc@Fe@Fe@He@Hc@Jg@Jg@Je@Li@No@pAwFz@wDvAkG~AcHrBeJn@oC\\yAJc@Li@f@wBvAkGxBqJjDgO`BiHViAR{@Ps@Ps@Nm@Nk@Le@Le@Po@Rs@\\mAtC_K`D}KfDoLpAqEzEmPfDmLdFiQfN}e@vFyRlCkJhFsQbK{]tFsR|DeNvEePfCyIJ]lAeERq@Ro@Rm@Tq@Tm@Xu@Zy@Xs@lB{ErBkFhE}KbAkC`AeC\\}@Ri@Pg@Pg@Ro@nFkQX_ANg@Ne@Ne@v@eCRo@Rm@Tq@Rk@Vu@tA}DjBkFtAyD|AmETo@To@Rk@Pg@Rk@Rm@l@kBr@{B|AyE|A}EzAuEjAkDfCsHzEqNvEgNVu@To@Tm@Tm@Vo@Rg@Vo@vBkFb@eArCcHjBuE~A{DfAmCnA}Ch@qAh@sAl@{Ah@uAh@uAf@uAb@oAZ_Ad@wAl@kBhByF^mAZcAZcA\\kAZiAXeAZmAZmAPu@d@oBXkAVcAXgAXgAZiAZgA\\kA\\iA\\gA\\eA`@iA`@gAb@kAb@kAh@yAd@oAf@oAd@iAb@eAd@gAf@iAd@eAd@aArBeEnB_EvBqE|AeDfCsFnBgEdDiH`@{@vFyL|EkKhB{DjH{OhB{DlEmJlBeEpCgG|B_FrCkGlAmCvA_DVk@Ti@Rg@^cA~AgEnByE~A{DN]Pc@JYL_@J]H[H_@F[Fa@D[BWB]Bg@@g@?gAAi@AYC_@CYGk@E]UgBE[_@wCa@}CS}Ai@cEg@}DcA}HIm@Ge@E]CSCWCYC]AQAUAa@?O?Q?K@o@@U@Q@M@M@K@KBSBS@I@GBOBMJg@BKDOFSNe@FQFOJULWLUPYPY\\g@r@cAzAuBbB{BvAoB~A{BfE_GrEmGpFqHzAuBnDaFdE{FbF_HlAcB|AwBdBaCnBoCzCeE`EuFjCoDZc@Xc@T_@R_@Ra@Pa@Nc@Ng@Lg@Ji@He@Fi@De@Ba@Bm@@a@?e@Ac@Ce@Cc@E_@Gc@Ig@Ke@Mi@k@}Bw@}C_AoD_@yAa@}AaCcJsBaIuAoF_EaPgDyMeGiViE}PiJg_@qMih@yByI]uAuCkL_Lyc@qGiW{H}ZgBgH[mAc@_Be@cBUw@So@a@uAi@gBOe@EMEOMe@K]GSGUKc@I]ESCOCOCSCYCa@AUAa@?e@?a@?k@@c@@SB]BUD]F_@H_@FWFSHWJWJUJSR_@R]Zg@p@cAz@qA`AyAjAgBdBkCrAqBd@s@t@iAh@y@l@_An@aA\\k@Ta@Ra@Pa@N_@Ne@Lc@FWLk@Ha@Fa@Da@Di@Bg@@i@?q@Ak@Ci@Ei@Ea@E]Ge@Ii@My@c@oCc@oCSoAg@}Ce@uCo@aEWaBKu@OiAOgAQoAM}@O_AUuAQgAQeAG]G_@Ie@SmAW}AO}@QeAKo@O{@SmAQeAY_BKm@UuAo@{Dg@_D[qBm@{DoA_I}@yFq@eEkAmH}@uFgB{Ke@yC}@wFs@qEk@mDW}Ak@iDg@}C[mBYgBKo@QiAUuAO{@YcBIe@Kg@I_@Ka@K]M_@M]MYO[OYOWQWSYW[UWYYWWYW]Y[WgDmCuDyCsFkE{AmAa@[u@k@c@_@MKMMSQEEOQMOIKKOMSKQGMQ_@KYM_@K[GWKe@EWEYGa@Ge@Iq@Gk@Is@c@yDe@cEe@cEg@mEe@_EK}@g@kE_@aDGi@g@oEKy@QeBCO[mCIm@C[SeB_@aDYgCEc@Ec@C_@Ce@Cg@Ai@Ao@?o@@o@@i@@eABmAFiCNiG@e@D_BFqCDqBN{GD_BH{DDiBD_BF}BN{GH}EHwCD{@DaAD{@JqB@U@]B}@FoCFoCH_D@k@@k@?a@?_@A[ASC[CWEWG[GWIYGQIUGOGMIOKQKQSYmA_BIK]a@qAcBy@eAi@q@y@eAoBeC{@gAu@_Aw@cAw@cAy@gA_AmAo@y@iB_CwD_FgB}B}BuCg@o@g@q@e@m@kA}A_@g@c@k@]c@aC}CgAuAoBeCkAyAg@o@W][a@Y_@[a@W][c@]e@s@_Ag@s@KM_@g@c@k@_@e@]c@[_@W[Y]WYWY[_@]a@[_@_BoBc@k@]_@{@eAm@w@u@_AeAsAW[uGqIsAcB}JmMwQsUcH_JiCeD{BuCwKmNkEuFe@m@e@m@g@o@g@q@i@s@k@w@a@k@gBgC[c@Ya@SYYa@]e@[c@[c@[c@Y]Y][_@QS]a@Y[Y[g@k@a@e@a@e@o@w@w@aAe@k@_@c@]a@[a@EGSW[a@oDuEkEsFqBiC}BwCwBqCsDwEwBqCe@m@Y_@_@g@Ya@]e@oAgBi@u@_@i@e@q@W]U[[c@i@u@a@k@[c@[a@Y]_@c@]_@_@a@]_@_@a@[]YYGGc@a@sAoAc@a@e@e@g@g@s@u@w@y@qBsBq@s@[]k@m@CCsAuA]_@o@q@[[YYYWYUWQWOWMYM[M[MaAa@a@Qe@SmCkA}@_@cAa@_A_@eAa@gNkFeYuK}CkA{KgEgCaA}IiDqJqDcC_AmEaByFuBqGaCuCgAoCcAQGSIc@Q[MUK]QYOYQYSYUYWYYWYUYOSKOQYOWQ]Qa@M]M]M_@Oc@Qi@sBmGyBcHmAwDmEgNOe@kB_GOe@Og@Mc@Me@Ka@Ke@Ic@Ki@Mq@Kk@Ms@u@oEo@uDY_B_@qBIe@G]Ga@E]Ea@Ca@Aa@?a@?a@@a@@]Ba@B[Di@De@PkBHaAd@oFR{BFq@JiAB]B_@@[?[A[CYEYGYIYKYMYOYOUQWW]{AsB{@kAqAkBQWOUMUMYO]M]Ma@Ka@I_@G_@Ea@C]AY?W@c@Bs@Be@@]@[@Y?[?i@@qC?a@?WA]Ca@C[E[E]EYG]G[I_@Kc@K_@K]M]O_@Qa@O]Q_@Ug@[q@[q@a@y@CGaBgDMWUe@OYKQKOCCGIMOKKOMSOOKSKWKWI[IYEWCUAW?[?gA@oA@aDBkB@c@?]Aa@C[CYEWGUGWIWKWMYOUM[Qw@c@}@i@_@UYQUMc@Ui@Ys@_@u@a@o@]{@c@cB}@k@YKGi@Ym@[IEi@Ym@[kAo@kBeAkBgAk@[s@a@[QYOWMWKYKWIWGUEUCUAY?[@[B[D[FaARYFWDWBW@W?WAYCWEYG[IWI[KwBw@WIUGSEYEYC[AY?Y@YBYBm@FWBWBY@W?YAWCYEUECAUEa@Kq@QmA[_@K]IYGe@Ic@Gi@Ga@E_@C_@CqDWqE[{CQ]C]CMAKAQCUEYGQEOEQGUIQIQIOIQKQKSMUOSMe@[m@a@i@_@m@c@SOKIOKMIMIKGSKKEQGQEMCIAMASAM?S?M?U@M@O@SBSBQB[DWBUB]BM@W@M?K?M?MAMASCOCMCOEMEOGQISKWO[SQMKIOKUOQKOISKQIOGMESGKCKCKCMCIAKAKAQAOAOA[CUASAWAW?a@@q@?Q?Q?a@A[?[Ag@Ca@CWAYA_@?W@WBSBYDYF[HWH_@LsBp@WHUFUDUBU@W?Y?WAYCWESEUGSIOIMISOQOOOOQOUMSOW_CcEm@eAUa@Q]O[O[M[M]KYK[c@wAIWGSGOACISKSKSMWk@iAKUISIUGWEYE[E]OgAEYEUGUISMWMUQWQSQQQOSMUMUKUIQGKCoBi@YIWISIQIQKQMQOOOOQOQMQSYOSKMMMOMSOUOWMWKYI[GSCYCYA[?[@sAFa@@[?[?[AYCWEYGWG[K[M[Ma@QgBw@qB}@u@]_@QYMWKYK]K]IYGg@Km@Mi@MwEaAYGUEYESCQAU?Y@]B]D]Di@FaCV_@DWDWDWFWH[LYNYRURUVSXOVMVMZ[v@MXOXMRORSRSPSNWNWJ[J_@H]D]BY?[Aa@E]G[I[MWMWOUQWU{@{@WUUQUOUMYMYKSGSEWEWCYAY?[@[BWDwB`@a@H_@H_@F[DYBY@[@[?]A_@Ca@E[E]G_@IsDy@cAUoBc@_@Ia@I]G]E[C[AY@YB[DYFYHYJ}An@[L[LWHUFUDQBSBS@U?W?[AeAEcAEk@AU?W?S@UBWDWFq@PqBh@wCv@{A`@iBf@oBh@_@JWFUDUBU@W?[A]C[E[GWG{@SsA[kBc@q@O]IsA[}@S_@I]Ic@Ic@E[C_@AaBCm@A]?k@?eB?o@?k@?y@AkAA}@A{JOiFK}CGoGKkEGcCE_CE_BEmBG{BGcDGyCEkDE}@AyACuAAu@Aq@Ac@?i@AkAAaC?e@?o@Ai@AqACu@Cq@Ei@Ec@Eg@Ga@G_@Go@KsAScC_@{Cc@iCa@}@MaDe@{Cc@cEk@aEk@cBUmAQ}Dk@}F{@kFw@qAS_AO{@O{@OsEw@{Ci@gB[wAWm@Ki@Ia@Gg@GgAMgIaAcAMy@Kw@Kk@IiDe@mG_AsIoAwF{@}HkAgK}AoJwAuGaAaDe@_Em@qCa@_@G[GYG]I[I[K[M[MYM[OYOYQ[SyBwAqEyCkEuCwDeCuDeCiBmAk@_@aAo@a@W_@Uc@Wg@Yw@c@aAg@qAq@m@]gCuAeAk@oDmBiAm@uBkAo@]i@Ye@WOIQIc@Sa@Q_@Oe@Qc@OSG_Cw@kDgA_GkB}E}A_@MMEmDiAoBm@k@Qm@Sq@Uk@SgFkBSIYKUIu@Wq@Uo@SqAa@uJ}CyE{Ay@WkBm@{Bs@s@Ui@Qm@Sm@UwDyAk@UiCcAaBo@yAm@YKgCcAgAc@oAg@kBu@cA_@w@YmBq@kBq@yAi@uAg@qBs@i@QYK[KwHmCiIwCg@QMECAkE_BmFmBaEyAcDkA}@[kBw@u@[o@Wi@SgG}Bm@UqCeAw@YSIg@QiA_@qFiBaA[gBm@y@Y_C{@a@O_@O_@O_@QWMYO[OaB}@uAw@u@a@wAw@aB}@uAw@{@g@YQUOQMQOOOMOMQMSKSKWK]GYEWCWA[?]@c@Bk@Fy@HeAFq@Do@Fw@JyA\\iEFy@Ba@Bg@@c@?_@Ac@A[Cm@MuCCo@Cq@?w@?_@@_@B]D_@D[F_@F[H[HYHWJWLWJSLUJQPWV[V[RURUPSNQNSNUNWLUJUJUJWJ[HYHYHa@F]DWBWB[@U@W@]?Y?]Ac@IyEImECmACiAAkACyAA]Ca@C_@C[CUCSEWGWGUIWISIQIOKQMQMOMOMMMKo@g@y@m@_@YwCuBa@YMIyDqCe@]oBuAgCiBiCkBgBqAaEuCkCmBiA{@yCwBWQuCsBiDcCkJ}Gc@[g@]o@c@m@_@k@]]S_@Se@W}DwBo@]m@[g@Wi@WWMSKmBcAqBgA{@e@gB_AgAk@iAm@yAy@mAq@y@c@cCsAcAi@k@[gCuA_DeBsAu@mAo@k@[sBiA_CoAmBeA}CcBcB}@qAw@wA{@{@g@s@a@m@]aAi@iBaA{@e@e@WUO[Om@[u@a@uAu@iE_CcGcD{F}CcCsA_Ag@[Q]S]U[UWSYUWUWUWWUUUWUYY_@]e@[c@Ya@]g@wAuBy@oAwAqBOW_CgDiAcBq@aAm@{@aB}BoAgB{AyBiBmCQWEGIMMQSYi@w@g@s@U[UYW[Y[Y[SSSSQQQOOMWS]W[U]U[S_@Ua@Ua@Sa@Sa@Qa@Qa@O]M_@M]K{Bq@k@Qi@Qg@Qe@Qg@Sq@Ye@SoBy@]OiAe@mAg@gAe@{BaAgAe@qAk@s@[_@QYOWOUOWQWSYUUSWWUUWWUWW[SWQWQWQYQ[OYOYO[Q_@Sc@m@qA}AiDyB}EgC}Fg@kAa@}@g@iA[q@Wk@_@w@Sa@Uc@a@u@S]S[W_@W[UWUUSSUSWSa@Wi@]e@Yg@[g@[w@e@aCuAeAo@iDqB{A}@cFwCSMoEiC}A}@aBaAkBgAsAw@]SYQ[SYS[U]W[W][[[[[UWW[W[SYU]U]U_@S]Wc@mCsEm@cAo@gAq@kAaAcBsBqDoBiDoCwE_BoCgAkBw@sAWc@U_@U_@W_@W]Y_@W[W[WYYYWWUUYYYWe@c@e@a@m@i@qCeCiAcAm@k@kAeAmFyEaB}A[YYWYY[[[]Y[W[[a@[a@[c@_@i@U]U_@S]S_@S_@Sa@Sc@Se@Se@Sg@Si@Sk@sDoKkHqSuFcPkEcMyD}KqAyDQi@Qk@W{@Ss@Qq@Ka@Mi@Oo@Qy@Mm@SaAc@{Bw@gEq@qDyAaI}BaMm@cDiDcRUmA]mBMq@EWMq@[aBOw@Mq@}BaM}AmIQ}@Os@Oo@Om@Qo@Qk@So@Sm@Um@Uk@Wm@Wm@Yo@q@wAg@gA{AeDgF}KuAyCwAaDeAaCcAyBq@{Ae@gAg@kAg@gA_@{@aAwBs@_B_@{@a@_AaA_C{BoFcE{J[u@]w@]u@c@aAsCqGm@sASc@Ue@Uc@Ua@S]U]U[W[QSUUWWQO]Y[U]U]S]Qa@Qa@Oc@Oc@Mg@Me@Ki@Kk@Ko@KuNyBoEq@cHeAuCc@oCc@o@Kk@Kg@Ke@Ke@Me@Oc@O_@O]O]QYQYSYUYWYYYYWYW[U[U]S]Q[We@iAuBeDkGgOiYmDyGuGaMqCkFiBkDkF}JmBqDwB_EeAqBWe@Yg@[g@[e@[c@[a@]a@]_@]]a@]a@[a@Ya@Wc@Wc@Uc@Se@Se@Qe@Oe@Mc@Kg@Kk@Kg@Ik@IcL{A}JsAqIiAkFs@oBWoAOoAOmBWwG}@yCc@kBWgDa@kC]aBUgFs@wEo@yEo@oC_@mAQoASw@M{@Oq@MqBc@SEe@MoAYk@Ok@OsAa@aD}@iEmAaCs@oCw@aEkA{IgC{DkAs@U_A[_A[k@Qe@Og@Oc@M]K_@Ki@OiF{AmBi@wC{@_Bc@iA]}@Wg@Oe@Oc@Q]Mi@Wi@Wg@Wa@Uk@[q@a@}CkBiBgAi@[a@Wa@Wc@YkBmAmD}BwDgCeBiA_IiFoFmDeHwEeDwBs@g@i@]SMg@_@]UwCuBa@Ya@Y_@WgBkAaBgAk@_@a@Ya@Ya@[a@]][_@]]]Y[YY[]Y]W[UYW[OSSYW_@_@q@U_@q@kAm@cAkEuHmAuBsAcCcDsFYg@a@s@c@w@wAcCU_@Sa@Wa@Wa@}@_B_BqCgCkEGKwAcCaBsC{@yAa@o@q@cAU]SYQWSWQWYa@W]W_@UYSWMOY[WWYWOMMK[UWQ[Sc@Yg@]i@_@WSWSi@e@UUWW_@a@c@g@q@u@g@k@s@w@QUQSUWu@y@iCsCs@u@a@e@]c@_@k@Q[Ua@g@_A[k@Wg@OY[e@[a@OS]a@WW{BaCY[SSUSOM_@]WSWSUQ[UYS]U]Us@e@wBuAuA}@aC{AmAu@sBqAYS_@U[S]U_@Y]W_@YYU_@[]YUS[Y]]WW]]iAmAkBqBsC{CwB}BaAeAw@y@q@s@UWUYQUW]QWQYOWKSMWMYM[Oa@Ma@Mc@GWIa@Ic@Ga@Ge@Ea@C]Ca@G{@IkAIkAIeAK_BO}BKaBG{@Eo@Gy@G_AIgAGu@Gq@Is@Kw@Ks@Ig@Ki@Mm@Mk@Oo@Kc@[qA_@}AKc@Ok@_AyDs@wC_@}A]wAMg@Qm@Oc@Qe@Qa@Wg@Wc@]g@[_@[][Yg@c@[Si@[_@Qa@Qa@Oe@Os@Si@OqA_@o@QcAY}Ac@cAY}@Yc@Qq@[e@Ye@]e@_@a@_@Y[U[W_@Wc@Sa@O]Um@Me@Mi@Kg@G[Go@Ec@Ee@Cg@IqBIeBGcB]aJEcAS}EM}CM_DGwAIyBGqAG_BE{@E{@IcAKy@Ks@Km@S_AUaAY_A]_Ac@cA[o@c@w@k@}@a@k@k@u@m@s@uBeCu@}@qA}Ak@q@_@c@wCmD}@eAiAqAiAkAi@g@e@_@m@a@o@[g@Qm@Ow@OoAQiAMsCYoEa@}D_@eEa@oE_@yBSeAKqAOy@Kc@Ii@Mg@Qg@S]Q_@Se@[a@]_@]e@i@[a@[g@]o@Yq@a@oA}@iDWy@Qe@Yo@]o@]g@e@k@c@e@m@g@i@_@s@a@s@_@oAo@_Ac@oCsAkAk@iAi@sAk@qBy@mBu@]McDmAiEaBuBw@k@Qi@Ms@Mw@Km@Gw@EcACy@AwB?iI@iDBcC?sBAkAEy@I_AM}@QcAWaA[{@[sCiAuAk@{B}@yIqDsD{A}@_@}@_@eAi@}@e@w@e@k@_@o@c@m@e@qAcAcBuA_FeEeA{@iB{AmFeEOMm@g@o@i@aCsB{AmAgA}@_CmBeBwAcBuAgCwBcEcDaBmAaAq@cC}AwA_A_BgA_BcAiC_BeHoEmAw@uK_HkBmAcC}A{@g@s@_@m@YiB{@sAm@iAi@c@S]S[S[Y]]]e@a@q@w@uAe@y@g@y@S[QUUW[Wa@Wa@Sa@O]Kg@K_@Eg@C[?g@B]De@Je@La@Pe@V_@XYVW\\Y`@{@tA]h@]f@_@f@WVUR_@V]Pe@Pa@Ja@Fa@Bg@@o@Cg@Gi@KaASeBc@aDu@wD}@sA[u@O_@Gi@Gi@Eq@Ck@?e@@a@BsAHyCPY@e@@gAAe@Cc@Eg@Ic@Ia@K[Ky@[u@[k@Sa@KYEi@Cm@Ai@@uAFa@Bi@@Y?[A[C[E]G]K[M[O_@W[YSUSWS]MYM_@Ka@G[Gc@Gc@Ky@Ik@Ig@Kc@IYOa@O[S]SYQSSSYYg@e@}FuFkEeEuCoCaAaA_B_B_Ay@u@m@k@c@s@c@}@e@}@_@wCkAwAi@{@]q@Ya@U]Ua@Yi@g@SSW[Ya@U_@[s@Us@Qo@Mm@G_@E_@Ca@Au@AcCAgDAmBAcEEwGC}@Ci@Gi@Km@Mg@Qi@Qc@Sa@U]U[Y[][c@[c@Wi@Wi@Sm@Oc@Gw@Gu@Cg@AoA@sBAg@AQ?a@?iDEw@AwB@o@@aBDgBFy@D}AF}BDg@B}AFmCJy@Du@Hc@Fk@L_@Je@Pc@Pa@Re@XWP[TWRYT}BjB}BnBqAdAqPlNoEtD{BlBaBrAoB`B_Av@iA`AmAbAuAhAaBvAkB~AkIbHaBtAkPfNm@f@i@d@s@l@y@p@YT[VUPg@^]Tu@d@SLQJ]RYNy@`@QHq@XKDi@RYJUHu@Ti@Ns@R_AVkFtA{Bj@yBh@eCh@k@Ni@P{AZg@Fm@Jy@RkJbC{[jIeQpE_B`@wSnF{L|Cg`@|JyPnE{TxFca@hKcIrBiG|AiD~@kD|@}Bj@gEfAaEdA{YtHcZvHqBf@yJfCoIvBoIvBiLxCgNnDiItBcCn@sEjAmEhAwQvEiLvC}Cx@aKjCaRzE}KrC_B`@q@PgAXgAX}@Vo@Ri@Rg@Ri@Vg@Vc@Tc@Va@Vc@Zi@`@]X[Xk@f@e@`@k@f@w@r@YTkAdAqBhBeBzAsAjA{ArAqBhBy@r@u@n@u@p@o@j@w@n@i@`@g@\\c@Xe@Xe@Xa@Ts@`@{Az@cCrAmBbAiBbAuBjAsCzAqDpBmE`CaExBuEhC}DxBe@VmCxAs@^g@V_@PSHYJ]J_@J[HYF[FYD[DWB_@Bc@Be@@m@@iCDsBDcEHaEHaCDqBD_A@cABu@B{@Di@Ba@Bi@Du@F_@DSB]Dm@Hk@Hu@L}AViBXiC`@uDn@OBs@Lw@Ns@N}@R}@Ti@Ne@Li@Nk@Ng@Na@Lg@PkA`@{@Z_A\\_A\\qHrCcBn@_Bl@oBt@_C|@iBp@gBn@{@ZmAf@yAj@}Bz@oCdAKDeDnAmDpAqBv@aC|@aC|@a@NcBn@sCfAoDrA{Aj@wDvAqBt@kBr@iBr@gBp@_Bj@cE|AwBv@_Ct@wAb@gAXIBE@iBh@uNpEcBh@wBp@{@X{Ad@gCx@{Ad@}@Xe@NsEvAk@Pq@RcEnAgDdA{ExAaEnAkQpF}H`CeHvB}FhBiF`BaF~AoBl@_AXw@Tc@L_@Ja@Ja@Ja@Ja@Je@Lc@La@Le@N{GtBkKfDsInCcGlBkDfAgEpAmP`FmCx@IBmCx@oBl@eHvB}QtFy`@vLiEpAoGnBcCt@aCr@uCx@kA^{EzAmF`BgEpAuBl@e@Lg@Li@Lg@Jm@Lk@Je@Hg@Hi@He@Fg@Fa@Da@Dc@Dg@Dg@Dc@Bg@Bi@Bi@Bg@@e@@g@@g@?e@?e@?c@Ai@Aa@Ac@Am@Cg@Ci@Ck@Ei@Eg@Em@Gi@Ge@Gm@Ii@Ii@Ie@Ic@Ia@Ik@Mg@Ma@Ka@K_@Kc@Mc@Mg@Oa@MsGqBeTwGyEyA}DmAcGkByEyAaEoAaHwB{C_ASG_Bg@o@Si@Qc@O_@M]M_@M_@Oa@O_@O[M[M_@O]O]O_@Q_@Q_@Q[O]Q]QsBeAgKmFwIqE{XwNiCsAyGkDm@[YOYO[O]O]O[M]Ma@O_@Mi@Qc@Mi@Og@Mk@Mi@Kk@Ke@Ii@Ie@Ga@Ec@Ec@EeBOeDWsGg@cKy@wOmAoAKcE[eE[wGi@YCe@EwAMkE]mDY{BQm@E}CWaDWmCSoBOu@Ge@Eo@Ga@EYEiASe@Ic@Ia@I_@Ic@K_@K_@Ka@M_@M_@M]M_@O]OWMWMc@Si@WWMWOYQ[SYSYSa@Ya@[s@k@_Ay@KI}DkDkC_C}@w@o@k@}@w@cA}@_@[YU[WWS[UWQWOYO]O[M]M]K]I]G_@G_@E[Cc@Cc@Aa@?c@@a@@_@Ba@D_@Fa@H_@Ha@Jc@LuBn@aD`AkErAeDbAqGpBaD`AsA`@mJtCsIjCiBj@{Ad@oBl@yAb@yA`@aAV{@Tq@Py@Tu@Rk@NkAZWFcDr@c@Ja@J_@Je@Na@N]N_@P_@R[PYP]T[TYTWTURUTWXWZUXSXQVSZS\\U`@m@fAe@z@S\\S\\S\\SZSXQTSVSVWXSRSRSRURWRSNUNYP]RYNWLWL[L[L[J]J_@Ja@J_@Ha@H]FcCb@uAVg@JsATq@L_C^u@NqAT]Fa@F]F]DWBWBW@Y@Y?S?UA[CYEUEYGYIUISIQISKUMWQYS_As@e@]i@_@]UWQUOWOQKSK_@Q]OYKSGUGYGYGYEUC[CYA[AW?W@Y@a@BWBSBYDUDWFYHYJWJUJWLYNeB~@cAj@aAj@k@\\eDlB{ErC]R]R]P[Na@P_@N_@L_@J[H_@Ha@F_@D]Bc@@]@a@?_@?cHAY?]?g@?e@@_@@]Be@Da@D]Fa@Ha@JQFODa@N]N_@Pg@VgDfBcB|@_@R]P_@P_@N_@N]L_@L]J]Ja@J]H_@H{Bd@uDv@e@Ja@Jc@L_@La@N_@P[PUNYRSNURUTUVORSXSZU^U`@MTq@lAu@tAg@`AILQZYf@U\\W\\UV[Z[V]V[R[P_@Pa@Na@L]H]Fc@Fc@D_@B[@g@@{@@u@Ak@AaA?q@?o@?iA?}@?_B@aA?W?[?uAAsGAsDAaBAiAAwCGaAAa@?y@@c@@g@B]Ba@D]De@Hm@NWH[J_@Ne@Ta@TWP[TYTm@h@UT}@~@}@`A{A~AiBlB{EdF_EfEgDnDqCxC_@^YXSRWV[XURWRWP[RWNWLWJYJYJUFWFWF]FYD_@D[Ba@Bu@Du@DcDNmH^gFXuH^mJf@oAH}@Fm@D}@F_\\vBmAH{Gb@WBoBL}AJiDRyEZ{@Fq@Di@Dg@Du@FaAHuK~@Q@mFb@mCT{BRsE^mBNqDZ}@Hi@Du@Fk@Ds@DK@m@BoAFoDN_ADy@Dq@DG?{@Do@Dq@Dk@De@Dc@D}@Hs@Fo@Fg@Dg@Dc@D{@HoAJeAHk@Dg@Do@DM@Q@[Bm@Ds@Dm@Du@Dg@Bw@DuAHy@Do@Ds@Ds@D{DT_DRgCPgMz@]BsDVkAH}@FmEXaDR_PbA}Hh@oJn@wAJuAJmEXuDVeHd@eIh@wIj@qPfA}CRsQlAcHd@kRpAkKp@qSrAiHd@oLv@gLv@sKr@gN~@yGb@mDToF\\_F\\o@Da@Be@Bk@Bg@@o@@g@?o@Ag@Aa@Ae@Cc@Cg@Ec@Eg@GuFs@mKwA}KwAqJqAeJkA}G}@g]qE}IkAyCa@eH_AcBSsAQsEm@uBY}@Ms@K{@Kw@KsAQmAQyASuAQuDe@qC_@gEk@yG{@uJqA_Q{BaKsAkYuDy`@kFiWgDiReCyTuCqQaC_OmBuKwAoVaDoFs@oEm@_AMwPyBeH_AoKuAoAQyJqAkGy@sEm@_LyA}Fu@gJmAgOqB{QaCqL}AmMcBeNiBqOqBi\\kEwU}C{P{BqSmCgTsCqOqBee@iG{JqAaJmAyG{@gJmAoC_@iBW}Dg@aDa@q@Ks@KuEo@cGu@}Ca@}AS{L_Bul@}Hs`@iFyYyD}G}@cMaBgEk@oBWm@Ii@G_@E[C_@Ci@Ci@Ak@?i@@a@@e@Bi@Di@Fa@Fc@Hc@J_@Ja@L_@La@N_@Na@P_@PgAf@cInD{FhCiD|AgAf@}@`@k@Vc@Re@Tm@ZgAh@sDjBg@Va@R[Nc@R_@P_@Pc@Rk@VwPtHiHbDeLfFoM~Fy@^_CbAkDbBiBbAeBhAgCrBmBbBgHnGaJfIyEhEuIzH[XWTqCfC[Xa@\\e@^]Va@X_@V_@V[Rc@V[Pc@Ta@Rg@Te@Ri@Re@Pc@Ni@Pk@Po@Rm@Pg@NyBl@i@Ni@Nm@Pg@Nw@TiN~DmEnAgHrBkEnAq@Rq@Ro@Po@Pw@Rw@Ro@No@Nq@NqK`CaMpCiTzEuJxB}RlEiK~BcJrBeK|B}GzAaGpAq@Ny@Ru@Pq@Ni@Lm@Lc@Js@Nw@PmK`CqHbBcH|AaE~@mE`AcCh@cB^gDv@mDv@cE~@u@P{@Rs@Po@Nw@Pq@Nk@Ls@Nm@Lo@La@Hm@LoB`@a@Hi@Jg@Ji@Lm@Nm@NmHdBwLrCmKdCeNbD}QjEiNbDaIjB_FjAkFlAuJ~BkFlAaH`BwG|AyLrCmPzDgLlC{M~CkSzEiHbB{FrA_PtDsRpEkLnC_PtDyM|CqQfEa@JcMvCcSvEoWfGeYxG{V`GaOjDcLlCuNhD_B^gAVgAVeAV}@ToJbCmFtAw@Rs@Ps@Pu@PiDv@aIjBeHbBaVvFiTdFqTfFsS|E_IhBiCn@}@RaCj@WFa@JqDz@c@Je@Ji@Jo@Je@Fg@Fg@Dm@Ds@Bw@@_A?aF@iG?oTBuPBqK@cJDgB@_EAeC@sF?y@?uC?mA?qB?sA?sA?_B?]?kA?aB?{DBeB@qB?a@?qC@aF?mF@wF@qKFs@@{@@_A?kE?_F?i@?s@AWA_@CWCUCYE]GUEWGYIWIMEOGUKWMUMSMQMWSOMSSUWSUSUWYsA{AaDoDg@k@c@e@]_@c@g@y@aAeAoAo@u@[_@SWMQOUKQKSSa@e@cAUi@Oa@K]I[I]I_@G]EWGc@Ea@Eg@C]C_@c@_He@aHCYSyCEq@Eu@E{@Cq@Cw@C}@CgAAeAGqHC}DGqHEqEAcA?]Aq@A]A_@C_@CYE]G]GYIYMa@KYIUKUGKEGMOSSMKIGIGKGIEQIQG[KOESEe@IYE[C]Aa@?[@M@[Da@HODSFMDMFOHULWP[VQPWX[^]b@eBbC}CnEQVORSVOPYXYVWRYR_@RUJWHa@L]F]F]D]BU@_@@k@@_A?kAAm@?u@Ac@@m@Dc@BYBYBo@Hc@Ha@He@Je@Jc@Le@La@J]H]H]Ha@Hm@Je@Fi@Fi@Di@Bg@@i@?k@Ag@Ac@C]C_@Ee@Ge@Ga@Ge@I_@G_@Gc@IsAW_F{@}AYeEs@_GeAgKkB}FaAk@KqCe@a@Ik@KkF}@a@Ia@IeAUy@Uc@MqAa@y@Yw@W_@K[KQGYKOGOGSKOKQOSSOQOQQUMQQY]m@KQKOMQOOMMMKQMQKQIQIUIUGUEWC[AY?Y@YBYB]DYDWDc@Fg@HaDh@i@HmAPoEr@{Ev@yDl@kAP]D[B[BU@W@W?W?WAWC[EYGUGWIQGSIYMUMUOUQUSUUUYS[Q[O[M[K[K]Kc@Ic@G_@Ga@g@eDMy@Ko@QmAgBwLeAcHs@yE_@cCQkAOaAKo@SqAGc@EWwAkJGc@OcAIc@CSKq@UyAgAkHaAmGU{Aa@mCKq@]}Bc@qCCOCQCSCUCUCUAQAUAW?U?Y@Y@UBWBWDYDWDUFYF[TgAr@iDn@_DHa@Ha@Hc@F_@Hi@Da@B_@@Y?]A]AYC[CWE[EUGWIYCIGOKWKUOYMUMSOSMOMOMMQQOOQOUSuCgC]Y{@u@YUUQYS]UYQKGMG[O[M]M_@M]K_@KMCSGk@OWGSEy@SmA[_EcAMC{DaAqEiAkCo@g@MgAWWIeAWg@Me@M]K_@Ma@Oa@Q]O]Q[Q_@U]U_@WqI{F{CuBwAaAcBiAwAaA}AeAc@Ya@Y}@k@oA{@w@i@}AgAy@k@a@Yc@[_@W]U]UeBiAMIiAu@_@WMIOKc@YYSa@Yw@i@{AaA}AeA[UeD{BcD{Ba@WaDwB}AeAaEoC_PuKeLyHg@]uBwAmBqAq@e@kAw@{AaAwAaAaDyB{DiCaAq@c@Ye@[]UmA{@mBqA{ByAqE}CqBsAqE{CwCoBc@YgAu@yF{DgAu@eBmAQKy@k@KGsCoBiCeBa@YgAu@g@]w@i@aC_Bi@_@c@Y{AcAoCkBiAw@s@e@aAq@{AcAa@WYSuA_Ae@[]WWQYSUOYQ]S[O_@Q]OYKYK[K]K[IYG]G]EMAQCa@EiBQsOyAoJ}@sEc@iHq@qEc@uBSmBQwBSgj@gFcGk@wBSe@EiD[c@Ea@E_@E]EYE]Ga@Ic@Kc@Ma@M]Ma@Qc@S_@Q}Au@yFqCwQ}Ik@YuAq@aHgDqFmCcCkAcAg@wAq@gB{@mEwBoIcEuAq@m@[mFiCoG}C{Au@i@W[O[O[O[Oa@S]O[M]MWIYI[Ia@K_@I[G]GWEi@IUESCi@Ii@IyAUeBWk@I{@Mu@Kq@Ki@Is@IWEWEqG_AyASMCuFy@c@Ge@Ge@G_@Eq@ImBUg@G[EYEYEa@GQCOCSC_@GwASa@Gc@GUEIAMC_@EGAYEwASi@Ig@Ie@Ke@Mc@O]Oa@S_@S]SeAm@]ScAk@a@Uu@c@i@[qJsF}CgBm@]mBgAeCwAi@[]S[Q{@g@iDmBi@[aAk@g@Y}CeBYQm@]w@c@cCuAiHcEs@a@a@UKG_B}@QKQK]Si@[}A}@WOoC_BwEmCo@_@YQ[S_Am@cBaAcBaAaBaA{@g@o@_@iAo@cAm@uAw@s@a@MIs@a@_B_Aq@_@MI_@SKG]SwAy@cDkBmBiA]Sa@U]S_@Uu@g@MIOKYQOIWO]Sa@U]S]S]S[Qu@a@k@[oBgA{@c@[QWO]SyA{@e@W[QWOcAk@_@U]SgDoBIEoBiAMG_@UgBaAkAo@eB_AaB_AwEoCuCaBmAs@]SUMWOkC{AoEiCkCyA{CiBuA{@_Ai@mC}AgBeAMIQKcAk@YOUOWOm@]}A}@iAs@m@[GEc@WMGg@YUMm@]{@g@WOKGgAo@aAi@s@a@u@c@i@[WO[Qk@[k@]eBcAsBkAoDsBg@YQKyA{@i@[qAu@c@WaAi@yA{@a@UwDwBcCwAk@[s@a@gAo@iBgAe@Yc@W]SKGeAm@q@_@UM{A}@u@c@q@_@g@YWOgBaAu@c@SM{@e@QK{A_AgAo@c@WWOoBiAOIwAy@i@[oBiAc@WoAs@m@]mAs@gCyAQKQKUM{CgBcBaAwAy@YQkAq@iBcA{A}@o@_@SKq@_@_Ai@c@WOKc@YoAs@}@g@_Am@QKc@Ue@[UOm@a@sCcBWOWGMCOCIAQAaFuCmC}Ae@YmAs@wA{@}G{D{@i@_Ai@c@UoEiCuBkAk@[aB_Ai@[g@YcAm@WOoAs@g@[oAs@}FgDmDqBg@YiAo@s@a@cF{CKGoAq@g@Ym@_@_@S{A{@aDkB{D}Be@W_GiDk@[oAu@g@WMIyDyBmAs@WOcBcA}IcFo@]o@_@g@[yCgBe@YsCaBeIyEuBkASKi@YmKeG_@Uk@[sHkEIGIGqJmFa@WqBmAy@e@}BuAm@]w@e@iAq@k@[cAm@mBiAw@e@EC{D{BsAu@sBmAw@c@oAu@}CiBYOUO{D{BiCyAy@e@SM[SYOs@a@iEgCuAy@gAo@IE}A}@}A{@QK_JgFe@WGCGCIGKGEEQKMIaE_CmAs@WO{Ay@i@[yIeFQKuHmE_@Q]SeBcAk@]e@YuGyDWQaDgBIGmBgAUMuCeB_Ai@O[OKSMMIGMg@s@GKGi@Q_AI]Kk@A_D?sKIwA?m@@mG?iG@oF?_@AcF?iGAkCA}@HYA}BAoA?}DAaB?c@?y@?SKoDAmBAeAAi@BcEAkA?qCAkAAaCAuAGkCCmAAu@EaBCkBAmACuBAoACoBAoAAiB?{A?eB?oA?_A?_AAyAA}AAuAAcBAsA?cA?iACk@AuC?{A?kBI_B~CIlBCZ@^DtBDzADbA??{DKiDEcECaDAsBAm@?G?GCaAAcA{@BeBH"
+            },
+            {
+                "summary": {
+                    "hasTolls": true,
+                    "hasExpressTolls": false,
+                    "diffs": {
+                        "cheapest": 44.18,
+                        "fastest": 51.83
+                    },
+                    "url": "https://www.google.com/maps/?saddr=19.053629,-104.317072&daddr=19.078110,-104.286330+to:19.104550,-104.268310+to:19.389670,-104.060730+to:19.258880,-103.689700+to:19.270950,-103.671490+to:19.554000,-103.437370+to:20.675170,-103.347350+to:20.675171,-103.347339&via=1,2,3,4,5,6,7",
+                    "distance": {
+                        "text": "192 mi",
+                        "metric": "309 km",
+                        "value": 309906
+                    },
+                    "duration": {
+                        "text": "4 h 59 min",
+                        "value": 17948
+                    },
+                    "name": "COL-98"
+                },
+                "costs": {
+                    "tagAndCash": 409,
+                    "fuel": 450.77,
+                    "tag": 409,
+                    "cash": 409,
+                    "licensePlate": null,
+                    "prepaidCard": 409,
+                    "maximumTollCost": 409,
+                    "minimumTollCost": 409
+                },
+                "tolls": [
+                    {
+                        "id": 521300900,
+                        "lat": 19.40895,
+                        "lng": -103.52761,
+                        "name": "San Marcos",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 204,
+                        "tagPriCost": 204,
+                        "tagSecCost": null,
+                        "cashCost": 204,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 204,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 143908.35,
+                            "time": "2025-02-16T05:43:56Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T05:43:56Z",
+                        "timestamp_localized": "2025-02-15T23:43:56-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.52761,
+                                    19.40895
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    },
+                    {
+                        "id": 521300200,
+                        "lat": 19.933159,
+                        "lng": -103.530564,
+                        "name": "Sayula",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 88,
+                        "tagPriCost": 88,
+                        "tagSecCost": null,
+                        "cashCost": 88,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 88,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 212194.11,
+                            "time": "2025-02-16T06:36:39Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T06:36:39Z",
+                        "timestamp_localized": "2025-02-16T00:36:39-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.530564,
+                                    19.933159
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    },
+                    {
+                        "id": 521300100,
+                        "lat": 20.373462,
+                        "lng": -103.576245,
+                        "name": "Acatlán",
+                        "road": "Guadalajara - Colima (54D)",
+                        "state": "Jalisco",
+                        "country": "MEX",
+                        "type": "barrier",
+                        "tagCost": 117,
+                        "tagPriCost": 117,
+                        "tagSecCost": null,
+                        "cashCost": 117,
+                        "licensePlateCost": null,
+                        "prepaidCardCost": 117,
+                        "currency": "MXN",
+                        "tagPrimaryNames": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "prepaidCardNames": [],
+                        "tagPrimary": [
+                            "IAVE",
+                            "Tag PASE",
+                            "TeleVia"
+                        ],
+                        "tagSecondary": [],
+                        "discountCarDetails": null,
+                        "discountCarType": null,
+                        "arrival": {
+                            "distance": 263093.3,
+                            "time": "2025-02-16T07:18:49Z"
+                        },
+                        "timestamp_formatted": "2025-02-16T07:18:49Z",
+                        "timestamp_localized": "2025-02-16T01:18:49-06:00",
+                        "point": {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -103.576245,
+                                    20.373462
+                                ]
+                            }
+                        },
+                        "height": null,
+                        "tagRequested": "tagPriCost"
+                    }
+                ],
+                "polyline": "elhsBtlu{Re@xBLFzATb@wBcBi@\\yAJ]FWEICCGEg@QEAGAE?K@F[v@oFLy@BOFk@By@?y@IW[WWUM[@c@Jo@F_@Hc@Ji@RcBP}AFsABIBGBGHSRENEBABCBCBM?EAIAECCCCCCGEg@@WGMOKM}@aBYg@q@kAa@m@c@e@eA}@aCkBm@w@Uq@Kg@CYAm@Fq@PeAl@_DTsAJo@j@_DPkADmACqACcAEaBCw@Ag@E_CE{BGuCIcCQuB}@uHu@wFYiBk@mE_@cCUiAEOIa@[y@i@cAk@w@]_@qA}@sAm@[IYIeAOeAK{BS}BYiBU_BO{AOoAMyAOgAKk@EWAOA_AKg@Eq@M_AWWM_@Qe@Y]Wi@i@}@aAwAeBa@m@g@s@SUa@a@y@u@iAs@}@c@SISI{Ai@gBm@gE_BwBw@cC{@qBg@uBYi@AaACiAAeABkAH}@Lk@Hu@Ng@NUFo@Pm@Rs@Va@Te@Xs@d@g@`@m@f@}@\\i@Le@He@Fm@Dc@IKCuAWqDm@g@KSMs@a@o@_@[SoD{Bm@a@UOa@UyAaA_@UmCgBw@i@aBgAu@e@uCiB_Ak@{BwAiBgAo@c@mA{@iAu@iBmA}FwD}DaCqBwAiBiAkCgBQKa@Ym@_@YMUGyFmDaBiAwFqDiAw@_CuAoNwI{GiEc@YQKIG_C_B}DcCeAo@kDyB_@Uu@i@q@c@_Am@{E{COKMKOMQQMMOOOQMOU[QW}BiDi@y@g@w@yCqEo@aAi@y@e@u@IMMSYc@MSMQOQQSWW][UQSOQMSMa@S[MYK]Ki@Mo@KmFq@oIeAqDc@[EmBUUC]CSAg@?g@?u@@{CJgBFq@Ba@BI@QBUDQDYFUFYH[LYLSJMFULUNqCrBm@b@SNOJKFSJ[NWJUH]J_AVeAVaCj@[HaAVo@NoAZiCn@eAVUF]H_Dt@k@Ny@Rk@LYFOBWBYBW@yCBkE?g@?aE@aA?uA?C?y@?kC?gI@_C@]?}B?oCB]?U@Q@MBQDQFSHOHeAn@kAv@{@h@]RMFUJSFoBd@eB`@c@J[FSBS@Q?OAYEQGQKSMo@_@OGQGOCSCQAS?[@g@By@BgAFSBI@MBMDMDKFKFQJMHOFOF}C~@q@To@RwAb@OFSJYNQHKDIBMBOBQBc@FMBMDKHKJELERAN?NB~@?P?LALCJCHEHIJKHGDQHQFWHGBSFOBOBM@K?MAKCMCMEIEOKYQYQIGOIQIKEWIk@QmA_@kBm@KCMCk@K]EUCMAQCsBUkBUYCOAQAQ?Q?[@wAHcAFcADwAFy@BO?QAKAUCoDe@mAOyB[aAMOCUEICKEKG}AaA{ByAOIOGSIWI_@Ie@Im@Mw@GcDm@oDs@{@[WSQ]Ee@XuAAYGKOOOKYGm@_@i@c@_AgAm@w@Ok@?kAE}@Es@IsAImA?WL]LMRIfDm@\\YHY?YUa@]ScA@iBByA\\kA`@m@XkAvCk@Z]Ak@WUSm@e@WEuAd@QHs@YoAyA]MeAAcBDeC@S?e@EYMk@m@KMo@k@aAgAc@aAWu@Y_@u@c@gBgAWMMCY?eAXkA\\SBOA_@GYM]Ue@a@Y]Mi@CcDA_AAuAMk@KOUEQASBWRGNS`@MRIJIHKDKBO?OCQEOGSMIKEMAO?O?[CKGMKGMEMBIBKFKJIPITMPOHKBK@MEMKMKQQQUIKEMGQEWCOGQGKMOW]QS]_@KIKEGAIAIAI@GDGDGJEJ?P@PBJBJDLBL@PCJGLKHMH}@d@}@Pa@Ho@FeB@yA@c@Ea@WIMIQG_AMoAI[W[SI]?y@Hg@H_@A]GYSgAeA_@a@cBeBa@WYG_@AiECcA?K?oC?UCUCUGSOOQi@{AQm@a@qAMWQQm@U_B_@UE_@KUO[[w@iAOYo@eCI_@YkASa@WO_@Gu@Dc@n@UhAGTKNm@d@aAf@OJKFgAh@{@b@k@Rk@Z]NMFO@OAQGOSMSOQWQSG_@K[GSESGSMSO_@]OKIIKIIMKUKWGMISIQGOGMiAqAIIKSGQIUIOKMMGMAQBMFILAN@RBVBR?LARERENGLQRIF_@XSLUHYHc@Fm@JSBSBk@Bu@C}@Gm@Ci@BiAN]B[Ca@Qc@Yc@Im@@U@o@CkDiA[Ks@Wc@Wi@[o@mAwAgCKQgAuBa@gAw@oDe@cC[y@_@u@_@s@]o@sCkFi@o@iAs@w@g@k@g@_@g@k@cACGq@yA[c@a@YQGOEQAO?[FQDUBU@O?KAUAOC_@IgA]eAc@_@Se@OOEYCMAU@c@@mANc@Hg@Ds@@o@@m@Lo@Za@RKFk@Tc@HY?WCQCWK_@Wi@c@[]iA}AOUg@u@a@i@WUSOi@Um@Ug@WSOWUOSOUKUIYIc@Iu@IcBCm@IkAIi@M_@Yc@OQUS}@k@]Ua@W_@UkAw@EQk@m@]e@Sa@IQWo@Yw@q@cBGOe@oAEKYq@]w@s@cBU[i@oA[k@MUMU_A}AuAeCaAcBm@aAc@m@SSYSk@Wm@Sg@OCAc@O[MWS]g@Og@Ca@B{@\\sAt@_DdAkET_APm@Z}@Vm@N]Lg@Hi@Dk@H_BBm@Ba@Ds@Hu@Lu@V}@t@kBt@eBrB{EvAmD~@{B`@s@xBiDd@w@^u@N]\\aAZeAv@{D^cBzAiHRcAF[\\_BZyAt@mDFm@CaAcBiHWa@c@g@m@]_Bc@qAQq@Hk@Fm@P[RuBrAe@TYFU@SC[Kk@WeBsAYM]Kc@CiB?_@Ce@I_AUqA]eBe@u@EY@SH]ZYb@_AvBg@h@e@Po@Bm@IgBo@{Ag@}CeA}Ag@iAa@aAe@wD_C{CmBi@UWK_@KyBe@{Dy@c@O{@_@sCaB_@S{CoBwAoAy@{@u@w@sA}A_@e@o@qAcAiC]{@M]aAsCUgAGu@GqDCcBCsBMcAOk@w@{A]k@}@{AOWUu@COKe@GeCCq@EyBGkBAg@@{@KmBEiAAMCWOe@Ws@m@kAS_@IOmB{D}AcFi@iBg@_B}@uCIQ_@w@GMIOeA_BKOc@k@q@y@i@o@oA{A{@eAq@w@w@u@_BmAcCcBs@e@KOaBm@uA_@{@OaAIiACkDEw@Gu@KaFmAwCu@_A]c@OiDiBwD}B__@aUqDqB{DeCe@[sDaCy@Wm@E{@@c@BcDRwIh@qAHm@@o@Ck@KsAe@oAg@i@Kq@A_@BeB^o@@c@Ca@KyD_Ac@Sq@a@k@S_@E_EAc@EeAM_E}@eDcAEAyAg@aAk@IIoCiCwCgCy@aAu@{@uEsFqA}AsBcCk@[MESEg@KiAEqACm@Ii@OUOSQcBaC[UYOi@MeBQ}B[}@Ke@Ay@BmATe@@u@E[MQMSOcEmE_@_@WQ]Ua@Sc@Sa@_@_BsBcEsDWUSa@IWEWFaABy@?c@G_@Oa@Wc@k@]kDqA]UUWeB}CoAgCg@c@s@UgE]i@Cw@Im@KSGIEMGMIMIOKWW]SOIMEICKEQCMAO?OBQ@OBWBQBS@_@@O?SAOCMCMGOGWOMGMEUMWMOKa@YYYWY]]SKSGUCQ?Y@]Di@FY?YA[A_@Q_@G]I_@M]QYMQO[Yc@a@USg@]UMSEs@Gc@CU@]DWBWFg@HSBk@D[A]A_@Cq@Cm@Mg@Sa@WIGOK]Sg@Ua@OQGWG[C[ASAo@Ai@A]Ai@Cg@E]EUE_@Ky@[g@OUKc@Sk@Ui@Su@[i@S{B_A}Am@c@WOOKOMYMa@GWCKYu@[c@Y[YY[YUW]]UUc@c@a@a@g@c@QM[M]Gg@Ci@Ai@?m@?q@?eA?e@?a@?o@Aa@EYESGWKSMUQMMWWc@e@QOQS[[SUUSY[SWKUGSAW@_@DYPi@HSXe@Zo@Fa@@e@?UA_@ISMUIKKMKMYYQOQOOM[UKKUQIKMSGUCQ?Y?S?QCQGQKKSSMGSIUK[SMWMUESAS?Y@QBKDWDSDYDYHs@Bm@?WAi@ASAw@B_@B[Le@HUL[FQRe@LWVg@LOHG^MNCXEb@A\\CNARGLKRYDS?O?[CWA[AUAOA[AUCUISOO[SUMQMQOKSGQIUIOIQWc@KQOUCQCQAS?OBOFOFILSHMFMHY@SAOAOIMOKOESESAU?W@S@Y@U@W?_@@]@]DUJKHKLMPMROTYd@OTONYNMB[@K?[?a@?i@BU@[?a@?OAWGMGMKGQCQ?ON]FMDGFIJQJMHKV]FQBWCYISMKMIQEQAY@S@U@O?OAMGIGIOGOGQGUIWG[Ge@G[CWC[?i@?W@k@?Q?s@?w@?QAUAUCg@EYG_@GSS_@IKIIMMQOUSQOOKWSOOUYOOUUKQIKKSIUKUIYGWCQEa@ESC]G]AQGOIKKKMKOIMEICSE_@I[KMEQIOMKMIOGSGSGMISGUI[AQ?MDYHWBKHYJWL]DOHSJ]FSHQLYHWP]JQFKLSDKBM@QAMCMEQCM?Q@Q@WBU?UAWESIQEIKQMQMOGGMOKMMOMISKIGOISESC]EQ?Q?U?O?KAIAKEMKOOIEKEMEM?I@K@KDQJMJIDKFMHYJwBd@i@J[AgAoAUMa@W]i@i@cBm@gBeBoCmAaBYe@Gk@B]PWXQtAy@h@]XUHUBOGe@OYWOQCO?QBaA`@SDc@CYQa@a@YU[WUMUOSK]eAUm@o@mAMUOKKEOAQBSFUJ]Hc@@UEQIe@a@k@c@_@e@U]Wi@g@y@U[WYc@a@_@Y[WWYa@cAIOKQUO]GYEa@MOKMOIWAk@?]CWK]OSQKKC}@?c@CQAKCc@Ou@WYGeAOSKMMGSC[Ae@Ag@GUOUYM]@QFUJSLc@NSDS?[EcAu@wAy@u@c@OIq@ASFUJYXMPe@Vk@?O?c@Sc@SoAm@QEOCiCG_@Ma@O]IS@S@U?_@AUEWIa@Wc@Yg@]i@[YUU]e@}@_@g@KQKOIGOKMESBmA\\SDQCICOGKGKMOOKOGIMQKMKKQOMKOMMGMGMEIEKEOEe@MWEYAM?MB]HWHQDa@FMBUBQ?MAQGMKIKOQQUUSSMQIOIKEg@Ka@K]MYKUOSOMIWQKMIMMOOQKKOQMMOMMKMKGGOUKSGSAIA[?o@B_@@a@?e@EWEQG_@EQYs@Ui@GKGMKUMSGMOSKIIGMIMIsBgAKIOQGMGSESAQG_BAMEUEUeC_FESEOAKE[CYCSEYGQGMOWQMGCIEOGMESEMCcBGqAEWAwBISBSDMBwC`AiBP}AFUC{@c@]_@][MIWQOIi@Om@I{BOe@GYGSKKKQOMSuAwBmAkB_AuAMQYk@IQCOEm@@o@X}BFcAC[CQSe@MSm@q@qAsAw@}@q@o@WQ]S[IeAQe@E_@C}@G}Gk@oDY]Ke@Oi@[k@c@_@Yk@]gA_@[KcA[}@[MG_@][c@_@_Ak@eB]q@kD}Dg@[i@Im@@g@?_@Ec@OYMSGQA[Fk@Vc@Nm@JwAHu@?WCg@CWKUOSUQY]y@YMe@?[Fa@Fi@@[QYe@We@MYOYGOCS?SBa@Ba@?c@Ke@QOUEQDSDe@Nk@f@e@hAMTUPo@`@qAt@e@NgAPeAVi@BYKSQK{@AgA@s@Ee@M_@SWaB_BU]Ga@@w@Gm@IYO]GOGSEKAK?K@KDMDGFIXOVMNMHSBOBY@QDOFQj@c@n@a@JMHSBM@KCOGOY_@YYg@[WOe@Sc@MaAM_@GKEKGIIGIU_@][OI_AGo@Eq@KUKQUM_@Ca@Ag@DOL[^Y`Ak@LYBc@?OIWoAiB{@oAk@y@Ua@ISCQAY@YBQFQFILKfAi@`@QTOLQFSBUKaAQy@Mg@MQOQQISAQ@IBOJURMNSLWBUCSCQMM]IYC[CUAW?U?W?K?UDWJ_@L]F]B_@C[EUeAcCMWyA}Cq@wA_AiBgAaBMQKMSUOS{BwBwAmAKIUSMO[[QQ{@cAyBaEmA}BS[OWQU[a@MOq@s@aEsDcBuA{AuA][KIqDcD}AqAy@o@c@[cAk@k@UkBy@YMqBsAmCuCaAeAkAcAiAq@q@[kBy@yFcCi@WiB}@g@WqEoB_Bs@mD}A_@QeBo@}BWcCYkGe@{BQeBOoKw@uLaAiAW_DcBqBeAmF{CuCaBsBmA{BkAs@[mA]eE{@yCm@gAa@[QUU[i@Me@Gk@?g@F}E?SHqEDgAR_AZo@NOd@g@hCqCd@}ACeBWy@KYc@k@y@q@yAeFM}@?u@d@_@`Co@b@a@PkAX_BZqDf@}HNwA^eAr@kAd@aAHs@Ay@Gs@Cs@Lq@RWz@g@l@WVYJc@?a@Wg@]c@e@i@[s@CQYyAo@yDY}ADcBCu@Qs@u@sAUc@Co@FmB?[G][k@mCuB_BuAk@e@_@Y{@m@m@MqDNcADy@@m@MYa@E_@He@Vc@z@Ql@MZIV_@Ca@g@oAm@iA[y@?g@He@PWX_@T_@Na@Dk@Ks@WqAg@kDBm@Jc@Xo@pAmCfAkBzAq@lBc@bAa@b@m@Du@Ei@Oe@Ua@Qe@Gu@N_AXmAPk@\\yAFaAU{@_@g@i@_@{@WcEMm@Eu@E}@Ag@B[Hg@R]He@@QGKIGMAOAM?QDOFGNM\\SRITMNIPGVATBZJ~@T^Ef@YVo@b@[bBq@Jo@Ha@R[j@Fj@?r@HTNp@z@\\DTCRKz@mAPM\\AhC^tBd@lBEjCWd@E~AIfAYZi@@y@Uk@c@KuABuBRw@?iAEqACs@Lm@D}@Ka@a@]a@GGKG_Bm@_BWq@Be@PULKBMBk@CiAAuARe@VQf@]r@[V]Dg@Qy@c@g@Qq@Aw@@{@Ms@i@c@aA[}BMqAE}@FcAL}@TmARgADs@QgCIyBc@uDWiBa@yBW}@u@uAmAyAgAgAk@{@Ww@OqAC_A?eAAmACwCGmCIs@Ma@Yg@s@s@u@o@g@c@gAeAa@_@U]Qc@Ii@Ew@IoAG{AIc@Qe@k@k@]Sy@WgAQeARaAXo@AYWM]Ig@Jg@\\m@`@m@f@s@n@}@Lw@IaA_AmDs@eCUi@[m@S[]YYKg@O_AKiBAmC?a@Es@Ug@][_@Yo@_@iAU{@[iA]oAKkADcAJo@Pa@Vc@T[`@e@pAsAFGhBsBlAqAvA}AhAmAx@}@dAmAnAsA~@cAd@e@l@k@b@e@r@o@jAcAtB_Bx@o@bAy@hBuApA_A~CyBhAu@`Aq@bEiCpA{@pGwDl@MrDi@lGs@x@Qh@Qn@c@Xc@pBmHXmA\\cBlA{Dp@uBVc@h@e@l@_@pBA~A?bASd@Wb@a@Xi@V{@Nu@^{BZuAdCaFbAuAx@yAh@o@l@[vAc@`B]|A_@|As@pAy@r@e@Z[bBqAjByA`Au@h@s@Z{@DY?sCBm@Tk@\\Yv@]r@On@Od@Ot@W|@s@f@e@`@a@b@a@d@g@~AcBhBcBlA}@x@e@hCy@z@Uz@c@rAwA`CkC`@m@La@Ne@T]XMn@GPCvA\\h@Bf@G`@]Po@RiAJyALy@X_@b@Yz@E~@HhBTvAPlBNj@Dx@Gj@Ql@[b@Yt@_@pA]bA[t@Sh@s@f@{@Zc@Z]VUh@c@h@a@v@o@z@u@n@i@h@a@v@m@\\WbAw@Z]Tg@Fw@B{@D]FULOHKNINA`@@^DtA\\`@Jf@N~@Nf@E^E\\KXMRQZWrBoDt@cAd@w@|@e@dAYz@Yn@Q~@YvA_@`Aa@j@o@Xc@b@u@Ta@R[TQTUz@_@|Ac@jA_A`CwEd@s@d@g@rAg@lBi@vCw@x@{@b@kAt@eBn@y@dA]rEWbFUfHs@l@OxA]fAUZ?N?RD\\JfCh@|Cx@xA_@`Ao@lAs@rBgB|@sAl@o@x@YxAG`@CfAIpAYrEgDbA[jKcBvEs@bBa@l@i@pBiDz@u@|@WfA?~DElD@x@Kp@Y`AeAx@iAd@k@r@Ut@Un@?n@Dl@VtC|BpALjE]RAb@EpAMx@KzAEfAPp@d@n@h@n@d@NL\\X^Zr@f@x@b@lATv@PjAP`@FbBA~@]rB{A^S^Kb@G\\@j@F|Bl@z@Pt@P~Cr@JBnB^|CP~AHlETlAB`AF|BH`BLn@Hh@Jl@XbAn@z@x@x@p@j@`@ZPh@Rx@Nl@D~@CrDq@v@O|@OzDa@lECrGGxBCrCCvEEhBSzAs@lAqA`AqAhA}AvBwC|CaE^g@t@cAjA}ALQbAwAp@qA^sATsA\\kC~@_HJoBKgBcBaFSo@s@mBUcAOq@I}@?aDEy@Gy@?ICoCAw@EsE_@oBQs@q@cCQk@o@qDg@yDKuA[wEEo@KmDCwCb@kE`@wCf@kD^oCl@yEb@{Aj@mAbAiBt@sAj@_AZg@fBuCd@e@x@k@t@i@fAu@`@{@NiAPeDL_CPqAXcAl@}Az@iBn@o@~Bs@b@[Tm@Vu@@OPcBh@wAr@kA\\k@hByCfAa@tAAfBEvA]d@c@`@]bAkARq@Ns@LaAFk@N}A?CNuBR{BKqBUeB_@qAm@eDu@wDIqBT_BbAmB~@qA~@qAp@gAPi@Hc@FsA?y@AeA?aBAwABiANq@BOdBmBr@k@ZWBC|AiA\\w@bDcGZm@d@y@r@oAhAgDdBwFL_@Ri@t@iCjAyD@oAKaBm@cESsAQ_CNeAr@oAVc@^u@BMLg@BUF_BA_BA{@A{@CmFf@uCFQdAwC`AiDh@oA^{@L_@Vy@PgACwAWwAQkAAsAR_BPg@Pg@hAiDJeBIwAqAaH{AqIe@yAiAeCa@{@a@w@m@sAYm@iAkBsDgE{@cAwBaCo@s@_BgBcEuEYm@Ww@Iy@A{@BuABeAGmBYy@e@e@k@[e@Gi@C}B^s@Fu@Ek@Ku@MKCkBi@cAu@iA}@GIc@g@Yq@e@aBe@oAo@{@}@o@_BcAyAkAq@iAg@wAq@uBc@gBAu@PmANgAEkAoAmDg@mAcAeCs@}BEaAA}@Fk@|@uDj@cCl@iCrA}FfC_KJa@rCgM~@wDvBcIx@{DR_AJe@b@qBPu@HiAA[A]Ii@Wy@i@}@a@[[UcAw@_Aq@mBqAg@a@a@k@Uo@Mq@Ou@Um@k@_As@_Ao@{@u@iA{BaDu@eAkCqD_@g@Wc@EIq@eAUcACc@Cc@Dw@VsGj@yJXeFBs@PgDBq@JeBHkARq@JYJSDGb@g@j@_@l@Sl@Ij@ClBJpB`@pBv@|B`A`GzBxA\\xATpAP~ANn@@h@?~@Gv@Kh@MdCc@rIsAlFu@bGy@nB_@xCm@`E{@lEcAjDs@vBe@jBe@n@Sz@[f@WVMlAs@NKv@m@n@m@f@k@h@s@t@kAhAyB|@iBLUTg@DG~@iBf@aA~@mBrDmHh@eA|@iB|@iBrAiCz@eBnAeC|AyCXk@Rc@Xi@Vi@`@y@Xi@Ta@dAsBjAaCZm@tDoHf@aAh@eAj@iAp@uAp@wAh@sA^cAn@qBx@uCbAaE`D}Ln@_Cp@iC~E{QtAmFxDsNtAgF`@_BdFmR|@gDRy@bA}DXeALe@h@gBz@sCtAiFjAoEPo@x@{CdCgJRw@`BcGfAaEz@eDjBmH`CeJXeANm@FSPq@\\sAZkAj@mBb@wARs@JSDKDMPo@Rs@Ty@dAqEb@gBb@_Bf@gBNk@La@XaAPi@FQHUYIcBs@sAi@wBy@iAe@q@Mi@Ce@?k@Bs@FgCV_@@o@?q@Gi@Ma@MmAk@{Aq@WM{HeDqAk@e@Sg@Uk@W]My@o@UQSW_@s@g@aAw@kDm@sCYuASu@k@yBOk@I_@HKBM@IAOGKGCICYqAOi@o@gCIs@So@w@kDOcAOg@Iu@A[Im@CcB@qABw@FcAHs@NcA`@wAF]ZcAPc@bAiC~@{B\\cAnBeFnAcDj@sA@ERu@Fs@Hq@RuA^iAVq@j@_BlCuGN_@JSBIFWVg@NYpAuD`AoCnBkFvBkFf@wAjAuCd@wAfB_ERo@Tq@dBcEVs@h@{A`AiCnAsCzDeK^y@fBcEDUj@aBp@kBJa@n@{Az@mBTk@r@iBtCuHhAeDdAeC`BgEn@mBPc@X{@Re@tBkFdBqEl@{At@kB|@}BXs@HUb@eApAgDVq@d@eAJSxB{FrCqH`AwBfAqBn@y@t@_ATKNOx@w@p@o@x@}@\\[XQd@m@`AwADGLOFI~CkEZa@~@oAvBsCn@y@pBqCpBgCFGTU^[LAPIJS?KEICKGGCCCAIAIAEI[u@O_@}@}AQ[S[Ua@U[s@qAs@oA{AeC]i@CEe@y@[k@kB{CgAaBiBoCcCwDoBaCgBsBQSmAkA}@{@mAcBUSWWUUWWUWW[SWQWQWQYQ[OYOYO[Q_@Sc@m@qA}AiDyB}EgC}Fg@kAa@}@g@iA[q@Wk@_@w@Sa@Uc@a@u@S]S[W_@W[UWUUSSUSWSa@Wi@]e@Yg@[g@[w@e@aCuAeAo@iDqB{A}@cFwCSMoEiC}A}@aBaAkBgAsAw@]SYQ[SYS[U]W[W][[[[[UWW[W[SYU]U]U_@S]Wc@mCsEm@cAo@gAq@kAaAcBsBqDoBiDoCwE_BoCgAkBw@sAWc@U_@U_@W_@W]Y_@W[W[WYYYWWUUYYYWe@c@e@a@m@i@qCeCiAcAm@k@kAeAmFyEaB}A[YYWYY[[[]Y[W[[a@[a@[c@_@i@U]U_@S]S_@S_@Sa@Sc@Se@Se@Sg@Si@Sk@sDoKkHqSuFcPkEcMyD}KqAyDQi@Qk@W{@Ss@Qq@Ka@Mi@Oo@Qy@Mm@SaAc@{Bw@gEq@qDyAaI}BaMm@cDiDcRUmA]mBMq@EWMq@[aBOw@Mq@}BaM}AmIQ}@Os@Oo@Om@Qo@Qk@So@Sm@Um@Uk@Wm@Wm@Yo@q@wAg@gA{AeDgF}KuAyCwAaDeAaCcAyBq@{Ae@gAg@kAg@gA_@{@aAwBs@_B_@{@a@_AaA_C{BoFcE{J[u@]w@]u@c@aAsCqGm@sASc@Ue@Uc@Ua@S]U]U[W[QSUUWWQO]Y[U]U]S]Qa@Qa@Oc@Oc@Mg@Me@Ki@Kk@Ko@KuNyBoEq@cHeAuCc@oCc@o@Kk@Kg@Ke@Ke@Me@Oc@O_@O]O]QYQYSYUYWYYYYWYW[U[U]S]Q[We@iAuBeDkGgOiYmDyGuGaMqCkFiBkDkF}JmBqDwB_EeAqBWe@Yg@[g@[e@[c@[a@]a@]_@]]a@]a@[a@Ya@Wc@Wc@Uc@Se@Se@Qe@Oe@Mc@Kg@Kk@Kg@Ik@IcL{A}JsAqIiAkFs@oBWoAOoAOmBWwG}@yCc@kBWgDa@kC]aBUgFs@wEo@yEo@oC_@mAQoASw@M{@Oq@MqBc@SEe@MoAYk@Ok@OsAa@aD}@iEmAaCs@oCw@aEkA{IgC{DkAs@U_A[_A[k@Qe@Og@Oc@M]K_@Ki@OiF{AmBi@wC{@_Bc@iA]}@Wg@Oe@Oc@Q]Mi@Wi@Wg@Wa@Uk@[q@a@}CkBiBgAi@[a@Wa@Wc@YkBmAmD}BwDgCeBiA_IiFoFmDeHwEeDwBs@g@i@]SMg@_@]UwCuBa@Ya@Y_@WgBkAaBgAk@_@a@Ya@Ya@[a@]][_@]]]Y[YY[]Y]W[UYW[OSSYW_@_@q@U_@q@kAm@cAkEuHmAuBsAcCcDsFYg@a@s@c@w@wAcCU_@Sa@Wa@Wa@{@_B_BqCgCkEGKwAcCaBsC{@yAa@o@q@cAU]SYQWSWQWYa@W]W_@UYSWMOY[WWYWOMMK[UWQ[Sc@Yg@]i@_@WSWSi@e@UUWW_@a@c@g@q@u@g@k@s@w@QUQSUWu@y@iCsCs@u@a@e@]c@_@k@Q[Ua@g@_A[k@Wg@OY[e@[a@OS]a@WW{BaCY[SSUSOM_@]WSWSUQ[UYS]U]Us@e@wBuAuA}@aC{AmAu@sBqAYS_@U[S]U_@Y]W_@YYU_@[]YUS[Y]]WW]]iAmAkBqBsC{CwB}BaAeAw@y@q@s@UWUYQUW]QWQYOWKSMWMYM[Oa@Ma@Mc@GWIa@Ic@Ga@Ge@Ea@C]Ca@G{@IkAIkAIeAK_BO}BKaBG{@Eo@Gy@G_AIgAGu@Gq@Is@Kw@Ks@Ig@Ki@Mm@Mk@Oo@Kc@[qA_@}AKc@Ok@_AyDs@wC_@}A_@wAMg@Qm@Oc@Qe@Qa@Wg@Wc@]g@[_@Y][Yg@c@[Si@[_@Qa@Qa@Oe@Os@Si@OqA_@o@QcAY}Ac@cAY}@Yc@Qq@[e@Ye@]e@_@a@_@Y[U[W_@Wc@Sa@O]Um@Me@Mi@Kg@G[Go@Ec@Ee@Cg@IqBIeBGcB]aJEcAS}EM}CM_DGwAIyBGqAG_BE{@E{@IcAKy@Ks@Km@S_AUaAY_A]_Ac@cA[o@c@w@k@}@a@k@k@u@m@s@uBeCu@}@qA}Ak@q@_@c@wCmD}@eAiAqAiAkAi@g@e@_@m@a@o@[g@Qm@Ow@OoAQiAMsCYoEa@}D_@eEa@oE_@yBSeAKqAOy@Kc@Ii@Mg@Qg@S]Q_@Se@[a@]_@]e@i@[a@[g@]o@Yq@a@oA}@iDWy@Qe@Yo@]o@]g@e@k@c@e@m@g@i@_@s@a@s@_@oAo@_Ac@oCsAkAk@iAi@sAk@qBy@mBu@]McDmAiEaBuBw@k@Qi@Ms@Mw@Km@Gw@EcACy@AwB?iI@iDBcC?sBAkAEy@I_AM}@QcAWaA[{@[sCiAuAk@{B}@yIqDsD{A}@_@}@_@eAi@}@e@w@e@k@_@o@c@m@e@qAcAcBuA_FeEeA{@iB{AmFeEOMm@g@o@i@aCsB{AmAgA}@_CmBeBwAcBuAgCwBcEcDaBmAaAq@cC}AwA_A_BgA_BcAiC_BeHoEmAw@uK_HkBmAcC}A{@g@s@_@m@YiB{@sAm@iAi@c@S]S[S[Y]]]e@a@q@w@uAe@y@g@y@S[QUUW[Wa@Wa@Sa@O]Kg@K_@Eg@C[?g@B]De@Je@La@Pe@V_@XYVW\\Y`@{@tA]h@]f@_@f@WVUR_@V]Pe@Pa@Ja@Fa@Bg@@o@Cg@Gi@KaASeBc@aDu@wD}@sA[u@O_@Gi@Gi@Eq@Ck@?e@@a@BsAHyCPY@e@@gAAe@Cc@Eg@Ic@Ia@K[Ky@[u@[k@Sa@KYEi@Cm@Ai@@uAFa@Bi@@Y?[A[C[E]G]K[M[O_@W[YSUSWS]MYM_@Ka@G[Gc@Gc@Ky@Ik@Ig@Kc@IYOa@O[S]SYQSSSYYg@e@}FuFkEeEuCoCaAaA_B_B_Ay@u@m@k@c@s@c@}@e@}@_@wCkAwAi@{@]q@Ya@U]Ua@Yi@g@SSW[Ya@U_@[s@Us@Qo@Mm@G_@E_@Ca@Au@AcCAgDAmBAcEEwGC}@Ci@Gi@Km@Mg@Qi@Qc@Sa@U]U[Y[][c@[c@Wi@Wi@Sm@Oc@Gw@Gu@Cg@AoA@sBAg@AQ?a@?iDEw@AwB@o@@aBDgBFy@D}AF}BDg@B}AFmCJy@Du@Hc@Fk@L_@Je@Pc@Pa@Re@XWP[TWRYT}BjB}BnBqAdAqPlNoEtD{BlBaBrAoB`B_Av@iA`AmAbAuAhAaBvAkB~AkIbHaBtAkPfNm@f@i@d@s@l@y@p@YT[VUPg@^]Tu@d@SLQJ]RYNy@`@QHq@XKDi@RYJUHu@Ti@Ns@R_AVkFtA{Bj@yBh@eCh@k@Ni@P{AZg@Fm@Jy@RkJbC{[jIeQpE_B`@wSnF{L|Cg`@|JyPnE{TxFca@hKcIrBiG|AiD~@kD|@}Bj@gEfAaEdA{YtHcZvHqBf@yJfCoIvBoIvBiLxCgNnDiItBcCn@sEjAmEhAwQvEiLvC}Cx@aKjCaRzE}KrC_B`@q@PgAXgAX}@Vo@Ri@Rg@Ri@Vg@Vc@Tc@Va@Vc@Zi@`@]X[Xk@f@e@`@k@f@w@r@YTkAdAqBhBeBzAsAjA{ArAqBhBy@r@u@n@u@p@o@j@w@n@i@`@g@\\c@Xe@Xe@Xa@Ts@`@{Az@cCrAmBbAiBbAuBjAsCzAqDpBmE`CaExBuEhC}DxBe@VmCxAs@^g@V_@PSHYJ]J_@J[HYF[FYD[DWB_@Bc@Be@@m@@iCDsBDcEHaEHaCDqBD_A@cABu@B{@Di@Ba@Bi@Du@F_@DSB]Dm@Hk@Hu@L}AViBXiC`@uDn@OBs@Lw@Ns@N}@R}@Ti@Ne@Li@Nk@Ng@Na@Lg@PkA`@{@Z_A\\_A\\qHrCcBn@_Bl@oBt@_C|@iBp@gBn@{@ZmAf@yAj@}Bz@oCdAKDeDnAmDpAqBv@aC|@aC|@a@NcBn@sCfAoDrA{Aj@wDvAqBt@kBr@iBr@gBp@_Bj@cE|AwBv@_Ct@wAb@gAXIBE@iBh@uNpEcBh@wBp@{@X{Ad@gCx@{Ad@}@Xe@NsEvAk@Pq@RcEnAgDdA{ExAaEnAkQpF}H`CeHvB}FhBiF`BaF~AoBl@_AXw@Tc@L_@Ja@Ja@Ja@Ja@Je@Lc@La@Le@N{GtBkKfDsInCcGlBkDfAgEpAmP`FmCx@IBmCx@oBl@eHvB}QtFy`@vLiEpAoGnBcCt@aCr@uCx@kA^{EzAmF`BgEpAuBl@e@Lg@Li@Lg@Jm@Lk@Je@Hg@Hi@He@Fg@Fa@Da@Dc@Dg@Dg@Dc@Bg@Bi@Bi@Bg@@e@@g@@g@?e@?e@?c@Ai@Aa@Ac@Am@Cg@Ci@Ck@Ei@Eg@Em@Gi@Ge@Gm@Ii@Ii@Ie@Ic@Ia@Ik@Mg@Ma@Ka@K_@Kc@Mc@Mg@Oa@MsGqBeTwGyEyA}DmAcGkByEyAaEoAaHwB{C_ASG_Bg@o@Si@Qc@O_@M]M_@M_@Oa@O_@O[M[M_@O]O]O_@Q_@Q_@Q[O]Q]QsBeAgKmFwIqE{XwNiCsAyGkDm@[YOYO[O]O]O[M]Ma@O_@Mi@Qc@Mi@Og@Mk@Mi@Kk@Ke@Ii@Ie@Ga@Ec@Ec@EeBOeDWsGg@cKy@wOmAoAKcE[eE[wGi@YCe@EwAMkE]mDY{BQm@E}CWaDWmCSoBOu@Ge@Eo@Ga@EYEiASe@Ic@Ia@I_@Ic@K_@K_@Ka@M_@M_@M]M_@O]OWMWMc@Si@WWMWOYQ[SYSYSa@Ya@[s@k@_Ay@KI}DkDkC_C}@w@o@k@}@w@cA}@_@[YU[WWS[UWQWOYO]O[M]M]K]I]G_@G_@E[Cc@Cc@Aa@?c@@a@@_@Ba@D_@Fa@H_@Ha@Jc@LuBn@aD`AkErAeDbAqGpBaD`AsA`@mJtCsIjCiBj@{Ad@oBl@yAb@yA`@aAV{@Tq@Py@Tu@Rk@NkAZWFcDr@c@Ja@J_@Je@Na@N]N_@P_@R[PYP]T[TYTWTURUTWXWZUXSXQVSZS\\U`@m@fAe@z@S\\S\\S\\SZSXQTSVSVWXSRSRSRURWRSNUNYP]RYNWLWL[L[L[J]J_@Ja@J_@Ha@H]FcCb@uAVg@JsATq@L_C^u@NqAT]Fa@F]F]DWBWBW@Y@Y?S?UA[CYEUEYGYIUISIQISKUMWQYS_As@e@]i@_@]UWQUOWOQKSK_@Q]OYKSGUGYGYGYEUC[CYA[AW?W@Y@a@BWBSBYDUDWFYHYJWJUJWLYNeB~@cAj@aAj@k@\\eDlB{ErC]R]R]P[Na@P_@N_@L_@J[H_@Ha@F_@D]Bc@@]@a@?_@?cHAY?]?g@?e@@_@@]Be@Da@D]Fa@Ha@JQFODa@N]N_@Pg@VgDfBcB|@_@R]P_@P_@N_@N]L_@L]J]Ja@J]H_@H{Bd@uDv@e@Ja@Jc@L_@La@N_@P[PUNYRSNURUTUVORSXSZU^U`@MTq@lAu@tAg@`AILQZYf@U\\W\\UV[Z[V]V[R[P_@Pa@Na@L]H]Fc@Fc@D_@B[@g@@{@@u@Ak@AaA?q@?o@?iA?}@?_B@aA?W?[?uAAsGAsDAaBAiAAwCGaAAa@?y@@c@@g@B]Ba@D]De@Hm@NWH[J_@Ne@Ta@TWP[TYTm@h@UT}@~@}@`A{A~AiBlB{EdF_EfEgDnDqCxC_@^YXSRWV[XURWRWP[RWNWLWJYJYJUFWFWF]FYD_@D[Ba@Bu@Du@DcDNmH^gFXuH^mJf@oAH}@Fm@D}@F_\\vBmAH{Gb@WBoBL}AJiDRyEZ{@Fq@Di@Dg@Du@FaAHuK~@Q@mFb@mCT{BRsE^mBNqDZ}@Hi@Du@Fk@Ds@DK@m@BoAFoDN_ADy@Dq@DG?{@Do@Dq@Dk@De@Dc@D}@Hs@Fo@Fg@Dg@Dc@D{@HoAJeAHk@Dg@Do@DM@Q@[Bm@Ds@Dm@Du@Dg@Bw@DuAHy@Do@Ds@Ds@D{DT_DRgCPgMz@]BsDVkAH}@FmEXaDR_PbA}Hh@oJn@wAJuAJmEXuDVeHd@eIh@wIj@qPfA}CRsQlAcHd@kRpAkKp@qSrAiHd@oLv@gLv@sKr@gN~@yGb@mDToF\\_F\\o@Da@Be@Bk@Bg@@o@@g@?o@Ag@Aa@Ae@Cc@Cg@Ec@Eg@GuFs@mKwA}KwAqJqAeJkA}G}@g]qE}IkAyCa@eH_AcBSsAQsEm@uBY}@Ms@K{@Kw@KsAQmAQyASuAQuDe@qC_@gEk@yG{@uJqA_Q{BaKsAkYuDy`@kFiWgDiReCyTuCqQaC_OmBuKwAoVaDoFs@oEm@_AMwPyBeH_AoKuAoAQyJqAkGy@sEm@_LyA}Fu@gJmAgOqB{QaCqL}AmMcBeNiBqOqBi\\kEwU}C{P{BqSmCgTsCqOqBee@iG{JqAaJmAyG{@gJmAoC_@iBW}Dg@aDa@q@Ks@KuEo@cGu@}Ca@}AS{L_Bul@}Hs`@iFyYyD}G}@cMaBgEk@oBWm@Ii@G_@E[C_@Ci@Ci@Ak@?i@@a@@e@Bi@Di@Fa@Fc@Hc@J_@Ja@L_@La@N_@Na@P_@PgAf@cInD{FhCiD|AgAf@}@`@k@Vc@Re@Tm@ZgAh@sDjBg@Va@R[Nc@R_@P_@Pc@Rk@VwPtHiHbDeLfFoM~Fy@^_CbAkDbBiBbAeBhAgCrBmBbBgHnGaJfIyEhEuIzH[XWTqCfC[Xa@\\e@^]Va@X_@V_@V[Rc@V[Pc@Ta@Rg@Te@Ri@Re@Pc@Ni@Pk@Po@Rm@Pg@NyBl@i@Ni@Nm@Pg@Nw@TiN~DmEnAgHrBkEnAq@Rq@Ro@Po@Pw@Rw@Ro@No@Nq@NqK`CaMpCiTzEuJxB}RlEiK~BcJrBeK|B}GzAaGpAq@Ny@Ru@Pq@Ni@Lm@Lc@Js@Nw@PmK`CqHbBcH|AaE~@mE`AcCh@cB^gDv@mDv@cE~@u@P{@Rs@Po@Nw@Pq@Nk@Ls@Nm@Lo@La@Hm@LoB`@a@Hi@Jg@Ji@Lm@Nm@NmHdBwLrCmKdCeNbD}QjEiNbDaIjB_FjAkFlAuJ~BkFlAaH`BwG|AyLrCmPzDgLlC{M~CkSzEiHbB{FrA_PtDsRpEkLnC_PtDyM|CqQfEa@JcMvCcSvEoWfGeYxG{V`GaOjDcLlCuNhD_B^gAVgAVeAV}@ToJbCmFtAw@Rs@Ps@Pu@PiDv@aIjBeHbBaVvFiTdFqTfFsS|E_IhBiCn@}@RaCj@WFa@JqDz@c@Je@Ji@Jo@Je@Fg@Fg@Dm@Ds@Bw@@_A?aF@iG?oTBuPBqK@cJDgB@_EAeC@sF?y@?uC?mA?qB?sA?sA?_B?]?kA?aB?{DBeB@qB?a@?qC@aF?mF@wF@qKFs@@{@@_A?kE?_F?i@?s@AWA_@CWCUCYE]GUEWGYIWIMEOGUKWMUMSMQMWSOMSSUWSUSUWYsA{AaDoDg@k@c@e@]_@c@g@y@aAeAoAo@u@[_@SWMQOUKQKSSa@e@cAUi@Oa@K]I[I]I_@G]EWGc@Ea@Eg@C]C_@c@_He@aHCYSyCEq@Eu@E{@Cq@Cw@C}@CgAAeAGqHC}DGqHEqEAcA?]Aq@A]A_@C_@CYE]G]GYIYMa@KYIUKUGKEGMOSSMKIGIGKGIEQIQG[KOESEe@IYE[C]Aa@?[@M@[Da@HODSFMDMFOHULWP[VQPWX[^]b@eBbC}CnEQVORSVOPYXYVWRYR_@RUJWHa@L]F]F]D]BU@_@@k@@_A?kAAm@?u@Ac@@m@Dc@BYBYBo@Hc@Ha@He@Je@Jc@Le@La@J]H]H]Ha@Hm@Je@Fi@Fi@Di@Bg@@i@?k@Ag@Ac@C]C_@Ee@Ge@Ga@Ge@I_@G_@Gc@IsAW_F{@}AYeEs@_GeAgKkB}FaAk@KqCe@a@Ik@KkF}@a@Ia@IeAUy@Uc@MqAa@y@Yw@W_@K[KQGYKOGOGSKOKQOSSOQOQQUMQQY]m@KQKOMQOOMMMKQMQKQIQIUIUGUEWC[AY?Y@YBYB]DYDWDc@Fg@HaDh@i@HmAPoEr@{Ev@yDl@kAP]D[B[BU@W@W?W?WAWC[EYGUGWIQGSIYMUMUOUQUSUUUYS[Q[O[M[K[K]Kc@Ic@G_@Ga@g@eDMy@Ko@QmAgBwLeAcHs@yE_@cCQkAOaAKo@SqAGc@EWwAkJGc@OcAIc@CSKq@UyAgAkHaAmGU{Aa@mCKq@]}Bc@qCCOCQCSCUCUCUAQAUAW?U?Y@Y@UBWBWDYDWDUFYF[TgAr@iDn@_DHa@Ha@Hc@F_@Hi@Da@B_@@Y?]A]AYC[CWE[EUGWIYCIGOKWKUOYMUMSOSMOMOMMQQOOQOUSuCgC]Y{@u@YUUQYS]UYQKGMG[O[M]M_@M]K_@KMCSGk@OWGSEy@SmA[_EcAMC{DaAqEiAkCo@g@MgAWWIeAWg@Me@M]K_@Ma@Oa@Q]O]Q[Q_@U]U_@WqI{F{CuBwAaAcBiAwAaA}AeAc@Ya@Y}@k@oA{@w@i@}AgAy@k@a@Yc@[_@W]U]UeBiAMIiAu@_@WMIOKc@YYSa@Yw@i@{AaA}AeA[UeD{BcD{Ba@WaDwB}AeAaEoC_PuKeLyHg@]uBwAmBqAq@e@kAw@{AaAwAaAaDyB{DiCaAq@c@Ye@[]UmA{@mBqA{ByAqE}CqBsAqE{CwCoBc@YgAu@yF{DgAu@eBmAQKy@k@KGsCoBiCeBa@YgAu@g@]w@i@aC_Bi@_@c@Y{AcAoCkBiAw@s@e@aAq@{AcAa@WYSuA_Ae@[]WWQYSUOYQ]S[O_@Q]OYKYK[K]K[IYG]G]EMAQCa@EiBQsOyAoJ}@sEc@iHq@qEc@uBSmBQwBSgj@gFcGk@wBSe@EiD[c@Ea@E_@E]EYE]Ga@Ic@Kc@Ma@M]Ma@Qc@S_@Q}Au@yFqCwQ}Ik@YuAq@aHgDqFmCcCkAcAg@wAq@gB{@mEwBoIcEuAq@m@[mFiCoG}C{Au@i@W[O[O[O[Oa@S]O[M]MWIYI[Ia@K_@I[G]GWEi@IUESCi@Ii@IyAUeBWk@I{@Mu@Kq@Ki@Is@IWEWEqG_AyASMCuFy@c@Ge@Ge@G_@Eq@ImBUg@G[EYEYEa@GQCOCSC_@GwASa@Gc@GUEIAMC_@EGAYEwASi@Ig@Ie@Ke@Mc@O]Oa@S_@S]SeAm@]ScAk@a@Uu@c@i@[qJsF}CgBm@]mBgAeCwAi@[]S[Q{@g@iDmBi@[aAk@g@Y}CeBYQm@]w@c@cCuAiHcEs@a@a@UKG_B}@QKQK]Si@[}A}@WOoC_BwEmCo@_@YQ[S_Am@cBaAcBaAaBaA{@g@o@_@iAo@cAm@uAw@s@a@MIs@a@_B_Aq@_@MI_@SKG]SwAy@cDkBmBiA]Sa@U]S_@Uu@g@MIOKYQOIWO]Sa@U]S]S]S[Qu@a@k@[oBgA{@c@[QWO]SyA{@e@W[QWOcAk@_@U]SgDoBIEoBiAMG_@UgBaAkAo@eB_AaB_AwEoCuCaBmAs@]SUMWOkC{AoEiCkCyA{CiBuA{@_Ai@mC}AgBeAMIQKcAk@YOUOWOm@]}A}@iAs@m@[GEc@WMGg@YUMm@]{@g@WOKGgAo@aAi@s@a@u@c@i@[WO[Qk@[k@]eBcAsBkAoDsBg@YQKyA{@i@[qAu@c@WaAi@yA{@a@UwDwBcCwAk@[s@a@gAo@iBgAe@Yc@W]SKGeAm@q@_@UM{A}@u@c@q@_@g@YWOgBaAu@c@SM{@e@QK{A_AgAo@c@WWOoBiAOIwAy@i@[oBiAc@WoAs@m@]mAs@gCyAQKQKUM{CgBcBaAwAy@YQkAq@iBcA{A}@o@_@SKq@_@_Ai@c@WOKc@YoAs@}@g@_Am@QKc@Ue@[UOm@a@sCcBWOWGMCOCIAQAaFuCmC}Ae@YmAs@wA{@}G{D{@i@_Ai@c@UoEiCuBkAk@[aB_Ai@[g@YcAm@WOoAs@g@[oAs@}FgDmDqBg@YiAo@s@a@cF{CKGoAq@g@Ym@_@_@S{A{@aDkB{D}Be@W_GiDk@[oAu@g@WMIyDyBmAs@WOcBcA}IcFo@]o@_@g@[yCgBe@YsCaBeIyEuBkASKi@YmKeG_@Uk@[sHkEIGIGqJmFa@WqBmAy@e@}BuAm@]w@e@iAq@k@[cAm@mBiAw@e@EC{D{BsAu@sBmAw@c@oAu@}CiBYOUO{D{BiCyAy@e@SM[SYOs@a@iEgCuAy@gAo@IE}A}@}A{@QK_JgFe@WGCGCIGKGEEQKMIaE_CmAs@WO{Ay@i@[yIeFQKuHmE_@Q]SeBcAk@]e@YuGyDWQaDgBIGmBgAUMuCeB_Ai@O[OKSMMIGMg@s@GKGi@Q_AI]Kk@A_D?sKIwA?m@@mG?iG@oF?_@AcF?iGAkCA}@HYA}BAoA?}DAaB?c@?y@?SKoDAmBAeAAi@BcEAkA?qCAkAAaCAuAGkCCmAAu@EaBCkBAmACuBAoACoBAoAAiB?{A?eB?oA?_A?_AAyAA}AAuAAcBAsA?cA?iACk@AuC?{A?kBI_B~CIlBCZ@^DtBDzADbA??{DKiDEcECaDAsBAm@?G?GCaAAcA{@BeBH"
+            }
+        ],
+        "meta": {
+            "userId": "siat.buzon@gmail.com",
+            "accountId": "",
+            "customerId": "cus_Rd7ShBGXbIlhXD",
+            "tx": 5,
+            "type": "api",
+            "client": "api",
+            "source": "here"
+        },
+        "extraData": {
+            "useCost": true,
+            "useEficience": true,
+            "rendimientoFuel": 0
+        }
+    }
+}
