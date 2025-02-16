@@ -1,1 +1,1 @@
-export const url = "https://tollcalculator.onrender.com/";
+export const url = "https://tollcalculator.onrender.com";
