@@ -8,7 +8,7 @@ const router = express.Router();
 // Middleware para configurar CORS (usando el paquete `cors`)
 router.use(
   cors({
-    origin: "http://localhost:5173", // Cambia esto por el dominio de tu frontend
+    origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
     methods: ["POST"], // Métodos permitidos
   })
 );

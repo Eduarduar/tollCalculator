@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 // Configuración de CORS
 app.use(
   cors({
-    origin: "http://localhost:5173", // Cambia esto por la URL del cliente
+    origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
     methods: ["GET", "POST"], // Métodos permitidos
     allowedHeaders: ["Content-Type"], // Encabezados permitidos
   })

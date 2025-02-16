@@ -8,7 +8,7 @@ const TOLLGURU_KEY = process.env.API_KEY;
 
 router.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
     methods: ["POST"],
   })
 );
