@@ -109,8 +109,8 @@ export function useValidatedForm() {
     loading.value = true;
     const data = {
       typeVehicle: selectSubTypeVehicle.value,
-      eficience: parseFloat(inFuelEficience.value),
-      costFuel: parseFloat(inConstFuel.value),
+      eficience: parseFloat(unformatNumber(inFuelEficience.value)),
+      costFuel: parseFloat(unformatNumber(inConstFuel.value)),
       startPoint: startPoint.value,
       endPoint: endPoint.value,
       waypoints: waypoints.value,
