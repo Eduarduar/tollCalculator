@@ -30,7 +30,7 @@ const fuelUsed = computed(() => {
 
 const fuelCost = computed(() => {
     const fuelPrice = props.extraData.useCost ? props.extraData.precioFuel : props.summary.fuelPrice.value; // en MXN
-    return fuelUsed.value * fuelPrice;
+    return fuelUsed.value.toFixed(2) * fuelPrice.toFixed(2);
 });
 </script>
 

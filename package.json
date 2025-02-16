@@ -8,7 +8,8 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force"
+    "type-check": "vue-tsc --build --force",
+    "deploy": "npm run build-only && rm -rf ./server/dist && mv ./dist ./server/ && git add . && git commit -m 'Moved dist to server folder' && git push origin main"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-balloon": "^44.1.0",
