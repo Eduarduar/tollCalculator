@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps, ref, watch } from 'vue';
+import { ref, watch } from 'vue';
 import OptionsRoutes from './components/OptionsRoutes.vue';
 import OptionRoute from './components/OptionRoute.vue';
 import MapView from './components/MapView.vue';
@@ -25,5 +25,5 @@ watch(() => props.data.routes, (newValue) => {
 <template>
     <OptionsRoutes :routes="data.routes" :activeRoute="activeRoute" :showRoute="showRoute" />
     <MapView :route="activeRoute" :summary="data.summary" :extraData="data.extraData" />
-    <OptionRoute :route="activeRoute" :summary="data.summary" />
+    <OptionRoute :route="activeRoute" :summary="data.summary" :extraData="data.extraData" />
 </template>

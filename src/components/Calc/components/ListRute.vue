@@ -1,6 +1,5 @@
 <script setup>
 import Lucide from '@/components/Base/Lucide'
-import { defineProps } from 'vue';
 
 const props = defineProps({
     deleteEndPoint: {
@@ -42,7 +41,8 @@ function deleteWaypoint(index) {
                 </template>
                 <template v-if="waypoints && waypoints.length > 0">
                     <template v-for="(waypoint, index) in waypoints" :key="index">
-                        <li :class="['flex flex-row items-center justify-between p-2 rounded-lg', waypoints.length >= 3 ? 'bg-amber-500/50' : 'bg-yellow-500/20']">
+                        <li
+                            :class="['flex flex-row items-center justify-between p-2 rounded-lg', waypoints.length >= 3 ? 'bg-amber-500/50' : 'bg-yellow-500/20']">
                             <span class="text-sm font-medium text-gray-700">{{ waypoint.address }}</span>
                             <button type="button" @click="deleteWaypoint(index)"
                                 class="flex items-center justify-center w-6 h-6 text-gray-700 rounded-full hover:bg-red-500 hover:text-white focus:outline-none">

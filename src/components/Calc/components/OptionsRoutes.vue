@@ -1,6 +1,6 @@
 <script setup>
 import Lucide from '@/components/Base/Lucide';
-import { defineProps, ref } from 'vue';
+import { ref } from 'vue';
 
 const props = defineProps({
     routes: {

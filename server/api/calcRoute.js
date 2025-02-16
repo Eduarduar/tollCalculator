@@ -35,7 +35,7 @@ router.post("/", async (req, res) => {
   ];
 
   for (const field of requiredFields) {
-    if (!data[field]) {
+    if (data[field] === undefined || data[field] === null) {
       return res.status(400).json({
         status: "error",
         message:
@@ -44,6 +44,20 @@ router.post("/", async (req, res) => {
         data: [],
       });
     }
+  }
+
+  if (
+    data.eficience === undefined ||
+    data.eficience === null ||
+    data.costFuel === undefined ||
+    data.costFuel === null
+  ) {
+    return res.status(400).json({
+      status: "error",
+      message: "Faltan algunos datos necesarios. Por favor, revise su entrada.",
+      error: "Parámetro faltante: eficience o costFuel",
+      data: [],
+    });
   }
 
   const {
@@ -61,15 +75,15 @@ router.post("/", async (req, res) => {
   const type = typeVehicle.slice(1);
 
   const extraData = {
-    useCost: useCost,
-    useEficience: useEficience,
+    useCost: !useCost,
+    useEficience: !useEficience,
   };
 
   if (!useCost) {
     extraData.precioFuel = costFuel;
   }
 
-  if (useEficience) {
+  if (!useEficience) {
     extraData.rendimientoFuel = eficience;
   }
 

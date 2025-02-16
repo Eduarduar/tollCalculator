@@ -1,7 +1,7 @@
 <script setup>
 import Lucide from '@/components/Base/Lucide';
 import ModalTolls from '@/components/Calc/modal/showTollsModal.vue';
-import { defineProps, ref, computed } from 'vue';
+import { ref, computed } from 'vue';
 import { formatNumber } from '@/utils/formatNumber';
 import { useDialogTolls } from '@/hooks/useModalTolls.ts'
 
@@ -15,13 +15,22 @@ const props = defineProps({
     summary: {
         type: Object || null,
         required: true
+    },
+    extraData: {
+        type: Object || null,
+        required: true
     }
 });
 
 const fuelUsed = computed(() => {
     const distance = props.route.summary.distance.value / 1000; // en km
-    const fuelEfficiency = props.summary.fuelEfficiency.hwy; // en km/l
+    const fuelEfficiency = props.extraData.useEficience ? props.extraData.rendimientoFuel : props.summary.fuelEfficiency.hwy; // en km/l
     return Math.round(distance / fuelEfficiency);
+});
+
+const fuelCost = computed(() => {
+    const fuelPrice = props.extraData.useCost ? props.extraData.precioFuel : props.summary.fuelPrice.value; // en MXN
+    return fuelUsed.value * fuelPrice;
 });
 </script>
 
@@ -33,7 +42,7 @@ const fuelUsed = computed(() => {
     <div class="grid grid-cols-1 col-span-12 gap-6 xl:grid-cols-2">
         <div class="flex items-center justify-between p-4 bg-gray-200 rounded">
             <h3 class="m-0 text-lg font-semibold text-gray-800">Distancia</h3>
-            <p class="m-0 text-xl font-bold text-blue-600">{{ route.summary.distance.metric }} km</p>
+            <p class="m-0 text-xl font-bold text-blue-600">{{ route.summary.distance.metric }}</p>
         </div>
         <div class="flex items-center justify-between p-4 bg-gray-200 rounded">
             <h3 class="m-0 text-lg font-semibold text-gray-800">Duración</h3>
@@ -41,7 +50,7 @@ const fuelUsed = computed(() => {
         </div>
         <div class="flex items-center justify-between p-4 bg-gray-200 rounded">
             <h3 class="m-0 text-lg font-semibold text-gray-800">Costo de combustible</h3>
-            <p class="m-0 text-xl font-bold text-blue-600">${{ formatNumber(route.costs.fuel) }} MXN</p>
+            <p class="m-0 text-xl font-bold text-blue-600">${{ formatNumber(fuelCost) }} MXN</p>
         </div>
         <div class="flex items-center justify-between p-4 bg-gray-200 rounded">
             <h3 class="m-0 text-lg font-semibold text-gray-800">Consumo de combustible</h3>

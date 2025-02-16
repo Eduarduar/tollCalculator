@@ -1,6 +1,6 @@
 <script setup>
 import Lucide from '@/components/Base/Lucide';
-import { defineProps, ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 
 const props = defineProps({
     route: {

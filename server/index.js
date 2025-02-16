@@ -23,11 +23,6 @@ app.use("/api/autocomplete", api);
 const calcRoute = require("./api/calcRoute");
 app.use("/api/calcRoute", calcRoute);
 
-// si consulta api/route.json, regresamos el archivo route.json
-app.use("/api/route", (req, res) => {
-  res.sendFile(path.join(__dirname, "api/route.json"));
-});
-
 // Middleware para servir los archivos estáticos del frontend
 app.use(express.static(path.join(__dirname, "dist")));
 
