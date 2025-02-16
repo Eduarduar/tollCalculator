@@ -9,12 +9,12 @@ const router = express.Router();
 router.use(
   cors({
     origin: "http://localhost:5173", // Cambia esto por el dominio de tu frontend
-    methods: ["GET"], // Métodos permitidos
+    methods: ["POST"], // Métodos permitidos
   })
 );
 
 // Ruta GET para obtener el script de Google Maps desde un archivo local
-router.get("/", (req, res) => {
+router.post("/", (req, res) => {
   const filePath = path.join(__dirname, "apiGoogle.js");
 
   fs.readFile(filePath, "utf8", (err, data) => {

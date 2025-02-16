@@ -60,7 +60,7 @@ async function autocompleteInputs({
   try {
     await new Promise((resolve, reject) => {
       fetch(`${url}/api/autocomplete`, {
-        method: "GET",
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },

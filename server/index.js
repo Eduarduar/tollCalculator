@@ -32,13 +32,16 @@ app.use("/api/route", (req, res) => {
 app.use(express.static(path.join(__dirname, "dist")));
 
 // Ruta para manejar todas las demás peticiones y devolver el index.html
-app.get("*", (req, res) => {
+app.get("*", (req, res, next) => {
+  if (req.originalUrl.startsWith("/api")) {
+    return next();
+  }
   res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 
 // Manejo de rutas no encontradas para la API
-app.use((req, res) => {
-  res.status(404).json({ message: "Ruta no encontrada" });
+app.use("/api/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 
 // Inicia el servidor
