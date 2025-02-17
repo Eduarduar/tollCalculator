@@ -1,41 +1,70 @@
-# midone-vue
+# Toll Calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+Toll Calculator es una aplicación web que utiliza la API de "TollGuru" para calcular datos sobre rutas. Además, incluye APIs de Google para el autocompletado de direcciones y para proporcionar las coordenadas (latitud y longitud) necesarias para que TollGuru realice los cálculos correspondientes.
 
-## Recommended IDE Setup
+## Características
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Cálculo de peajes**: Utiliza la API de TollGuru para calcular los costos de peaje en diferentes rutas.
+- **Autocompletado de direcciones**: Implementa la API de Google Places para facilitar la entrada de direcciones.
+- **Conversión de direcciones a coordenadas**: Utiliza la API de Google Geocoding para obtener las coordenadas de las direcciones ingresadas.
 
-## Type Support for `.vue` Imports in TS
+## Requisitos
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Node.js
+- Una cuenta y clave API de TollGuru
+- Una cuenta y clave API de Google (Places y Geocoding)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Instalación
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tollCalc.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd tollCalc
+   ```
+3. Instala las dependencias del frontend:
+   ```bash
+   npm install
+   ```
+4. Navega al directorio del servidor:
+   ```bash
+   cd server
+   ```
+5. Instala las dependencias del backend:
+   ```bash
+   npm install
+   ```
 
-## Customize configuration
+## Configuración
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Crea un archivo `.env` dentro de la carpeta `server` y agrega tus claves API:
+   ```env
+   API_KEY=tu_tollguru_api_key
+   API_KEY_GOOGLE=tu_google_api_key
+   ```
 
-## Project Setup
+## Uso
 
-```sh
-npm install
-```
+1. Inicia el frontend:
+   ```bash
+   npm run dev
+   ```
+2. Navega al directorio del servidor:
+   ```bash
+   cd server
+   ```
+3. Inicia el backend:
+   ```bash
+   npm run dev
+   ```
+4. Abre tu navegador y navega a `http://localhost:5173`.
 
-### Compile and Hot-Reload for Development
+## Contribuciones
 
-```sh
-npm run dev
-```
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
 
-### Type-Check, Compile and Minify for Production
+## Licencia
 
-```sh
-npm run build
-```
-# tollCalculator
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
