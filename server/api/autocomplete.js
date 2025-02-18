@@ -45,7 +45,7 @@ const API_KEY = process.env.API_KEY_GOOGLE;
 router.use(
   cors({
     origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
-    methods: ["GET"], // Métodos permitidos
+    methods: ["POST"], // Métodos permitidos
   })
 );
 
