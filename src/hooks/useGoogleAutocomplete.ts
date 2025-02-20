@@ -80,10 +80,8 @@ async function autocompleteInputs({
         script.defer = true;
         script.innerHTML = scriptContent;
         document.head.appendChild(script);
-        setTimeout(() => {
           successAPI.value = true;
           resolve(0);
-        }, 5000);
       })
       .catch((error) => {
         reject(error);
