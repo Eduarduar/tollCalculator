@@ -1,4 +1,5 @@
 require("dotenv").config();
+const BaseURL = require("../baseUrl").BaseURL;
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
@@ -9,7 +10,7 @@ const API_KEY = process.env.API_KEY_GOOGLE;
 // Middleware para configurar CORS (usando el paquete `cors`)
 router.use(
   cors({
-    origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
+    origin: BaseURL, // Cambia esto por el dominio de tu frontend
     methods: ["POST"], // Métodos permitidos
   })
 );

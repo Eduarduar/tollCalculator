@@ -8,6 +8,9 @@ declare global {
   }
 }
 
+const loadingAPI = ref(false);
+const errorAPI = ref(false);
+const successAPI = ref(false);
 const startPoint = ref<Partial<Location>>({});
 const endPoint = ref<Partial<Location>>({});
 const waypoints = ref<Location[]>([]);
@@ -24,6 +27,9 @@ export function useAutocomplete() {
     startPoint,
     endPoint,
     waypoints,
+    loadingAPI,
+    errorAPI,
+    successAPI,
   };
 }
 
@@ -55,31 +61,37 @@ async function autocompleteInputs({
   inEnd,
   inWaypoints,
 }: AutocompleteInputs) {
+  loadingAPI.value = true;
+  errorAPI.value = false;
   const showToast = inject("showToast") as (options: ToastOptions) => void;
 
   try {
     await new Promise((resolve, reject) => {
       fetch(`${url}/api/autocomplete`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       })
-        .then((response) => response.text())
-        .then((scriptContent) => {
-          const script = document.createElement("script");
-          script.async = true;
-          script.defer = true;
-          script.innerHTML = scriptContent;
-          document.head.appendChild(script);
-          script.onload = resolve;
+      .then((response) => response.text())
+      .then((scriptContent) => {
+        const script = document.createElement("script");
+        script.async = true;
+        script.defer = true;
+        script.innerHTML = scriptContent;
+        document.head.appendChild(script);
+        setTimeout(() => {
+          successAPI.value = true;
           resolve(0);
-        })
-        .catch((error) => {
-          reject(error);
-        });
+        }, 5000);
+      })
+      .catch((error) => {
+        reject(error);
+      });
     });
   } catch (error) {
+    errorAPI.value = true;
+    successAPI.value = false;
     console.error("Error al cargar el script de Google Maps:", error);
     showToast({
       message: "Ocurrio un error al iniciar la aplicación",
@@ -87,9 +99,13 @@ async function autocompleteInputs({
       duration: 5000,
     });
     throw new Error("Google Maps not available");
+  } finally {
+    loadingAPI.value = false;
   }
 
   if (!window.google) {
+    errorAPI.value = true;
+    successAPI.value = false;
     showToast({
       message: "Ocurrio un error al iniciar la aplicación",
       tipo: "error",
@@ -97,6 +113,7 @@ async function autocompleteInputs({
     });
     throw new Error("Google Maps not available");
   }
+  errorAPI.value = false;
 
   const google = window.google;
 

@@ -18,7 +18,7 @@ onMounted(() => {
 
 <template>
     <div class="flex-col items-center justify-center min-h-screen pt-20 sm:p-10 xl:flex max-w-screen">
-        <div class="container relative grid grid-cols-12 p-4 xl:shadow-lg bg-slate-100 rounded-xl gap-y-4">
+        <div class="container relative grid grid-cols-12 p-4 xl:shadow-lg bg-slate-100 rounded-xl gap-y-4 ">
             <div ref="icon1"
                 class="animate-despawn overflow-hidden pointer-events-none 2xl:pointer-events-auto 2xl:!w-[64px] 2xl:animate-spawn absolute -rotate-[30deg] -left-[3rem] -top-16 transition-all duration-300 hover:rotate-0 hover:-top-[4.5rem] cursor-pointer !w-0 ">
                 <Tippy content="Go to portfolio" placement="right" as="a" href="https://eduardoar.onrender.com/">

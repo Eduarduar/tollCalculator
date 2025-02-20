@@ -2,13 +2,14 @@ require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
+const BaseURL = require("../baseUrl").BaseURL;
 const router = express.Router();
 
 const TOLLGURU_KEY = process.env.API_KEY;
 
 router.use(
   cors({
-    origin: "https://tollcalculator.onrender.com", // Cambia esto por el dominio de tu frontend
+    origin: BaseURL, // Cambia esto por el dominio de tu frontend
     methods: ["POST"],
   })
 );
